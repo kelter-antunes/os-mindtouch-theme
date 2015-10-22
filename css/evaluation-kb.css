@@ -100,13 +100,6 @@
   font-size: 1rem;
   text-align: center;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase] .elm-content-container img {
-  border: 1px solid #ECEFF1;
-  box-shadow: none;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  padding: 10px;
-}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .elm-content-footer {
   background: red;
   background-image: radial-gradient(0% 100%, red 50%, #FFFFFF 100%);
@@ -191,15 +184,31 @@
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .ui-selectmenu-text {
   width: 80%;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase] dd.mt-listing-detailed-image {
-  margin: 10px 0 0 0;
-}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] dl.mt-listing-detailed.mt-edit-section {
   margin-bottom: 0;
-  padding: 25px 25px 100px 25px;
+  padding: 25px 25px 75px;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] dd.mt-listing-detailed-subpages {
+  margin-top: 0;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] span.mt-sortable-listing-image {
+  display: block;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] span.mt-sortable-listing-image img {
+  box-shadow: none;
+  max-height: 48px;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] dd.mt-listing-detailed-image {
+  position: absolute;
+  bottom: 25px;
+  height: 48px;
+  margin: 0;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] dt.mt-listing-detailed-title a h4 {
   margin-top: 0;
+  border-left: none;
+  padding-left: 0;
+  font-weight: 800;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] dt.mt-listing-detailed-title a {
   border-bottom: 1px solid #eee;
@@ -207,14 +216,11 @@
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .evaluation-kb li.mt-sortable-listing {
   position: relative;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase] dd.mt-listing-detailed-image {
-  position: absolute;
-  bottom: 25px;
-}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] dd.mt-listing-detailed-navigation {
   position: absolute;
   right: 20px;
-  bottom: 45px;
+  bottom: 37px;
+  font-weight: 800;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .more-related ul.related-list {
   list-style: none;
