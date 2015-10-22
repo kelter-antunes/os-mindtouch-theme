@@ -168,7 +168,6 @@
   box-shadow: 0px 0px 0px 30px #FFFFFF;
   /* Rectangle 168: */
   margin-bottom: 30px;
-  margin-left: 30px;
   padding: 24px;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .ui-tabs .ui-tabs-nav {
@@ -378,6 +377,9 @@
   font-weight: 800;
   margin: 0;
 }
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidemenu-wrapper {
+  display: none;
+}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar {
   /* breadcrumb */
 }
@@ -385,7 +387,6 @@
   display: none;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar article#elm-main-content {
-  padding-right: 10px;
   padding-left: 290px;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper {
