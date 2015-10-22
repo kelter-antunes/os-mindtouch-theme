@@ -5,8 +5,12 @@
 	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/ViewsCategory/OrderedSubpages
 	*/
   /* 
-	EvaluationGuideTopics 
+	Evaluation Guide Topics 
 	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/EvaluationGuideTopics
+	*/
+  /* 
+	Evaluation HomePage HeroHeader 
+	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/Evaluation_HomePage_HeroHeader
 	*/
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] dd.mt-listing-detailed-image {
@@ -43,4 +47,62 @@
   box-shadow: 0px 1px 2px 0px #EEEEEE;
   margin-bottom: 5px;
   display: block;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] nav.elm-header-global-nav.elm-nav {
+  display: none;
+  visibility: hidden;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] ol.elm-meta-data.elm-meta-top {
+  display: none;
+  visibility: hidden;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] header h1#title {
+  display: none;
+  visibility: hidden;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] input#kb-search {
+  padding: 15px;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] input#dummy-search {
+  margin-top: 8px;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .evaluation-kb li.mt-sortable-listing {
+  border: 1px solid #EEE;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 2px 0px #EEEEEE;
+  -moz-box-shadow: 0px 1px 2px 0px #EEEEEE;
+  box-shadow: 0px 1px 2px 0px #EEEEEE;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .evaluation-kb span.mt-icon-article-topic-guide {
+  display: none;
+  visibility: hidden;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .evaluation-hero {
+  background-color: #EFEFF1;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .evaluation-hero p {
+  color: #777;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .evaluation-hero .text {
+  -ms-flex: 1 1 36.5em;
+  -webkit-flex: 1 1 36.5em;
+  flex: 1 1 36.5em;
+  min-width: 0;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .evaluation-hero .form-field {
+  -ms-flex: 1 1 36.5em;
+  -webkit-flex: 1 1 36.5em;
+  flex: 1 1 36.5em;
+  min-width: 0;
+  padding-left: 100px;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .evaluation-hero .elm-content-container {
+  justify-content: center;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
 }
