@@ -114,18 +114,6 @@
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .elm-meta-top {
   font-size: 10px;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase] .elm-nav-container {
-  margin-top: 24px;
-  width: 62em;
-}
-[class*=columbia-breadcrumb-home-evaluationknowledgebase] .mt-breadcrumbs {
-  border: none;
-}
-[class*=columbia-breadcrumb-home-evaluationknowledgebase] .mt-breadcrumbs li:after {
-  content: '>';
-  font-size: 70%;
-  margin: .2rem;
-}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .mt-guide-tabs-container {
   border: none;
 }
