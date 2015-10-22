@@ -384,7 +384,7 @@
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .breadcrumb-topic-parent {
   display: none;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .article#elm-main-content {
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar article#elm-main-content {
   padding-right: 10px;
   padding-left: 290px;
 }
