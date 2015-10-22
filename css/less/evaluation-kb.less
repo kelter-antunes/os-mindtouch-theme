@@ -1,5 +1,159 @@
 /* base class to encapsule evaluation kb styles */
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] {
+	a {
+		color: #0088CC;
+	}
+	article.elm-content-container {
+		max-width: 60em;
+		min-width: 0em;
+	}
+	h1 {
+		padding: 10px 0 10px;
+	}
+	h2 {
+		border-bottom: 1px solid #CFD8DC;
+		font-size: 2.1em;
+		margin-bottom: 2 em;
+		margin-top: 3rem;
+		padding-bottom: .7rem;
+	}
+	h3 {
+		border-bottom: 1px solid #CFD8DC;
+		color: #596669;
+		font-size: 1.7em;
+		margin-bottom: 1.8rem;
+		margin-top: 3rem;
+		padding-bottom: 0.3em;
+	}
+	h4 {
+		border-left: 1px solid #CFD8DC;
+		color: #596669;
+		font-size: 1.4em;
+		margin-bottom: 1.2rem;
+		margin-top: 3rem;
+		padding-left: 3%;
+	}
+	h4 ~ * {
+		padding-left: 3%;
+	}
+	h4 ~ ul li {
+		margin-left: 3%;
+	}
+	table {
+		border: 1px solid #eee;
+		margin-top: 40px;
+	}
+	table td {
+		background: #ECEFF1;
+		border: none;
+	}
+	thead tr th {
+		background: rgba(113, 174, 214, 0.70);
+		border: none;
+		color: #384142;
+		font-size: 1rem;
+		text-align: center;
+	}
+	.elm-content-container img {
+		border: 1px solid #ECEFF1;
+		box-shadow: none;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		padding: 10px;
+	}
+	.elm-content-footer {
+		background: red;
+		background-image: radial-gradient(0% 100%, red 50%, #FFFFFF 100%);
+		border-top: 1px solid #ECEFF1;
+		box-shadow: inset 0px 4px 10px 0px rgba(213, 213, 213, 0.30);
+		margin-top: 80px;
+		padding: 20px;
+		padding-top: 15px;
+	}
+	.elm-header-global-nav a {
+		font-size: 12px;
+	}
+	.elm-header-hierarchy {
+		display: none;
+	}
+	.elm-hierarchy-trigger {
+		display: none;
+	}
+	.elm-meta-article-navigation {
+		border-bottom: 1px solid #ECEFF1;
+	}
+	.elm-meta-top {
+		font-size: 10px;
+	}
+	.elm-nav-container {
+		margin-top: 24px;
+		width: 62em;
+	}
+	.mt-breadcrumbs {
+		border: none;
+	}
+	.mt-breadcrumbs li:after {
+		content: '>';
+		font-size: 70%;
+		margin: .2rem;
+	}
+	.mt-guide-tabs-container {
+		border: none;
+	}
+	.mt-icon-article-category {
+		display: none;
+	}
+	.mt-icon-article-guide {
+		display: none;
+	}
+	.mt-related-articles-header {
+		color: #999;
+		font-size: 1rem;
+		font-weight: 600;
+	}
+	.mt-related-listing {
+		background: #fff;
+		border: 1px solid #CFD8DC;
+		border-radius: 4px;
+		box-shadow: 0px 2px 2px 0px #ECEFF1;
+		padding: 15px;
+	}
+	.mt-related-listing-link-icon {
+		color: #CFD8DC;
+		font-size: 120%;
+		line-height: 1.8;
+		margin-right: 10px;
+	}
+	.mt-toc-content ol li {
+		margin-bottom: 10px;
+	}
+	.mt-toggle-container {
+		background: #fff;
+		border: 1px solid #ECEFF1;
+		border-radius: 0px;
+		box-shadow: 0px 0px 0px 30px #FFFFFF;    /* Rectangle 168: */
+		margin-bottom: 30px;
+		margin-left: 30px;
+		padding: 24px;
+	}
+	.ui-tabs .ui-tabs-nav {
+		background: #fff;
+		border-bottom: 1px solid #ccc;
+	}
+	.ui-tabs .ui-tabs-nav li {
+		background: #fff;
+		border-color: #fff;
+	}
+	.ui-tabs .ui-tabs-nav li.ui-state-active {
+		background: fff;
+		border-color: #ccc;
+	}
+	.ui-tabs .ui-tabs-scroll-container {
+		background: #fff;
+	}
+	.ui-tabs-anchor {
+		border-color: red;
+	}
 
 	/* 
 	OrderedSubpages 
@@ -242,19 +396,22 @@
 		list-style: none;
 		margin: 0;
 		padding: 0;
+		background: #FFFFFF;
 		border: 1px solid #EEEEEE;
 		border-radius: 3px;
-		-webkit-box-shadow: 0px 0px 5px 1px #EEEEEE;
-		-moz-box-shadow: 0px 0px 5px 1px #EEEEEE;
-		box-shadow: 0px 0px 5px 1px #EEEEEE;
+		box-shadow: 0px 2px 2px 0px #E2EBEF;
 	}
 	.sidemenu-wrapper ul.sidemenu li a {
 		padding: 15px;
 		margin: 0px;
 		margin-left: 0px;
-		border-bottom: 1px solid #EEE;
-		border-top: 1px solid #EEE;
 		display: block;
+		border: none;
+		border-bottom: 1px solid #ECEFF1;
+		font-size: 13px;
+	}
+	.sidemenu-wrapper .sidemenu li a:hover {
+		background: #ECEFF1;
 	}
 	.sidemenu-wrapper ul.sidemenu li.active {
 		font-weight: bold;
@@ -358,107 +515,5 @@
 		border-bottom: 1px solid #ddd;
 		padding-bottom: 10px;
 		margin-bottom: 40px;
-	}
-
-	/* =============================================================================
-	   Base Button
-	   ========================================================================== */
-	a.button.pill {
-		color: #333;
-	}
-	a.button.pill.active {
-		color: #fff;
-	}
-	.button {
-		position: relative;
-		overflow: visible;
-		display: inline-block;
-		padding: 7px 20px;
-		border: 1px solid #d4d4d4;
-		margin: 0;
-		text-decoration: none;
-		text-align: center;
-		text-shadow: 1px 1px 0 #fff;
-		font: 10px/normal sans-serif;
-		color: #333;
-		font-weight: 800;
-		text-transform: uppercase;
-		white-space: nowrap;
-		cursor: pointer;
-		outline: none;
-		background-color: #ececec;
-		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#F2F3F5));
-		background-image: -moz-linear-gradient(#fff, #F2F3F5);
-		background-image: -ms-linear-gradient(#fff, #F2F3F5);
-		background-image: -o-linear-gradient(#fff, #F2F3F5);
-		background-image: linear-gradient(#fff, #F2F3F5);
-		-moz-background-clip: padding;
-		-moz-background-clip: padding;
-		background-clip: padding-box;
-		border-radius: 4px;
-		zoom: 1;
-	}
-	.button:hover, .button:focus, .button:active, .button.active {
-		text-shadow: none;
-		color: #fff !important;
-	}
-	.button:active, .button.active, .button:hover, .button:focus {
-		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#c20), to(#A91D01));
-		background-image: -moz-linear-gradient(#c20, #A91D01);
-		background-image: -ms-linear-gradient(#c20, #A91D01);
-		background-image: -o-linear-gradient(#c20, #A91D01);
-		background-image: linear-gradient(#c20, #A91D01);
-	}
-
-	/* overrides extra padding on button elements in Firefox */
-	.button::-moz-focus-inner {
-		padding: 0;
-		border: 0;
-	}
-
-	/* =============================================================================
-	   Button groups
-	   ========================================================================== */
-
-	/* Standard group
-	   ========================================================================== */
-	.button-group {
-		display: inline-block;
-		list-style: none;
-		padding: 0;
-		margin: 0;    /* IE hacks */
-		zoom: 1;
-		*display: inline;
-	}
-	.button + .button, .button + .button-group, .button-group + .button, .button-group + .button-group {
-		margin-left: 15px;
-	}
-	.button-group li {
-		float: left;
-		padding: 0;
-		margin: 0;
-	}
-	.button-group .button {
-		float: left;
-		margin-left: -1px;
-	}
-	.button-group > .button:not(:first-child):not(:last-child), .button-group li:not(:first-child):not(:last-child) .button {
-		border-radius: 0;
-	}
-	.button-group > .button:first-child, .button-group li:first-child .button {
-		margin-left: 0;
-		border-top-right-radius: 0;
-		border-bottom-right-radius: 0;
-	}
-	.button-group > .button:last-child, .button-group li:last-child > .button {
-		border-top-left-radius: 0;
-		border-bottom-left-radius: 0;
-	}
-
-	/*position button group right to the heading*/
-	ul.button-group.toggle-menu {
-		position: absolute;
-		right: 0;
-		top: 115px;
 	}
 }
