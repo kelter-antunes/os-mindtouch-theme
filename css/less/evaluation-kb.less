@@ -1,5 +1,30 @@
 /* base class to encapsule evaluation kb styles */
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] {
+
+	/*wistia*/
+	.videoWrapper {
+		position: relative;
+		height: 0;
+	}
+	* html .videoWrapper {
+		margin-bottom: 45px;
+	}
+	.videoWrapper .videoPadding {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+	}
+	.videoWrapper .wistia_embed, .videoWrapper .wistia_playlist {
+		height: 100%;
+		width: 100%;
+	}
+	.wideScreen {
+		padding-bottom: 56.25%; /* hard-coded 16:9 aspect ratio */
+	}
+
+	/* end wistia*/
 	a {
 		color: #0088CC;
 	}
@@ -85,7 +110,6 @@
 	.elm-meta-top {
 		font-size: 10px;
 	}
-
 	.mt-guide-tabs-container {
 		border: none;
 	}
@@ -361,148 +385,98 @@
 	Sidebar Menu
 	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/Sidebar_Menu
 	*/
-	.breadcrumb-topic-parent {
-		display: none;
-	}
-	article#elm-main-content {
-		padding-right: 10px;
-		padding-left: 290px;
-	}
-	.sidemenu-wrapper {
-		position: absolute;
-		left: 0;
-		display: none;
-		top: 0;
-		bottom: 0;
-		width: 230px;
-		margin-top: 0;
-		padding-top: 50px;
-		list-style: none;
-		margin: 0;
-		padding-left: 0;
-	}
-	.sidemenu-wrapper ul.sidemenu {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		background: #FFFFFF;
-		border: 1px solid #EEEEEE;
-		border-radius: 3px;
-		box-shadow: 0px 2px 2px 0px #E2EBEF;
-	}
-	.sidemenu-wrapper ul.sidemenu li a {
-		padding: 15px;
-		margin: 0px;
-		margin-left: 0px;
-		display: block;
-		border: none;
-		border-bottom: 1px solid #ECEFF1;
-		font-size: 13px;
-	}
-	.sidemenu-wrapper .sidemenu li a:hover {
-		background: #ECEFF1;
-	}
-	.sidemenu-wrapper ul.sidemenu li.active {
-		font-weight: bold;
-		position: relative;
-	}
-	.sidemenu-wrapper ul.sidemenu li.active:before, .sidemenu-wrapper ul.sidemenu li a:hover:before {
-		content: "";
-		border-left: 2px solid #c20;
-		position: absolute;
-		top: -1px;
-		bottom: -1px;
-		left: -3px;
-		border-top-left-radius: 3px;
-		border-bottom-left-radius: 3px;
-	}
-	.sidemenu-wrapper ul.sidemenu li {
-		padding: 0px;
-		margin: 0;
-		position: relative;
-	}
-	.sidemenu-wrapper ul.sidemenu li a {
-		color: #333;
-	}
+	.body-with-sidebar {
+		.breadcrumb-topic-parent {
+			display: none;
+		}
+		.article#elm-main-content {
+			padding-right: 10px;
+			padding-left: 290px;
+		}
+		.sidemenu-wrapper {
+			position: absolute;
+			left: 0;
+			display: none;
+			top: 0;
+			bottom: 0;
+			width: 230px;
+			margin-top: 0;
+			padding-top: 50px;
+			list-style: none;
+			margin: 0;
+			padding-left: 0;
+		}
+		.sidemenu-wrapper ul.sidemenu {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			background: #FFFFFF;
+			border: 1px solid #EEEEEE;
+			border-radius: 3px;
+			box-shadow: 0px 2px 2px 0px #E2EBEF;
+		}
+		.sidemenu-wrapper ul.sidemenu li a {
+			padding: 15px;
+			margin: 0px;
+			margin-left: 0px;
+			display: block;
+			border: none;
+			border-bottom: 1px solid #ECEFF1;
+			font-size: 13px;
+		}
+		.sidemenu-wrapper .sidemenu li a:hover {
+			background: #ECEFF1;
+		}
+		.sidemenu-wrapper ul.sidemenu li.active {
+			font-weight: bold;
+			position: relative;
+		}
+		.sidemenu-wrapper ul.sidemenu li.active:before, .sidemenu-wrapper ul.sidemenu li a:hover:before {
+			content: "";
+			border-left: 2px solid #c20;
+			position: absolute;
+			top: -1px;
+			bottom: -1px;
+			left: -3px;
+			border-top-left-radius: 3px;
+			border-bottom-left-radius: 3px;
+		}
+		.sidemenu-wrapper ul.sidemenu li {
+			padding: 0px;
+			margin: 0;
+			position: relative;
+		}
+		.sidemenu-wrapper ul.sidemenu li a {
+			color: #333;
+		}
 
-	/* breadcrumb */
-	button.elm-hierarchy-trigger.mt-hierarchy-trigger.ui-button-icon.mt-icon-hierarchy-trigger-closed, button.elm-hierarchy-trigger.mt-hierarchy-trigger.ui-button-icon.mt-icon-hierarchy-trigger-open {
-		background-color: #F4F4F4;
-		margin: 0;
-		padding: 0 20px;
-		width: 70px;
-		height: 60px;
-		line-height: 60px;
-		color: transparent;
-		border-top-right-radius: 0px;
-		border-bottom-right-radius: 0px;
-	}
-	.mt-icon-hierarchy-trigger-closed:before, .mt-icon-hierarchy-trigger-open:before {
-		color: #788;
-	}
-	header#elm-header.elm-header nav.elm-header-global-nav.elm-nav div.elm-nav-container ol.mt-breadcrumbs {
-		width: calc(92.3%);
-		line-height: 60px;
-		border: none;
-		background-color: #F4F4F4;
-		padding-left: 20px;
-		border-top-right-radius: 3px;
-		border-bottom-right-radius: 3px;
-		margin-left: 5px;
-	}
-	.elm-hierarchy.mt-hierarchy.mt-tree.mt-filtered-tree {
-		margin-left: 0px;
-	}
-
-	/*article specific*/
-	body {
-		line-height: 1.5 !important;
-		color: #777 !important;
-	}
-	.col-6 {
-		width: 50%;
-	}
-	.flex-container {
-		display: -ms-flex;
-		display: -webkit-flex;
-		display: flex;
-		margin-bottom: 80px;
-	}
-	.flex-container > div[class^="col-"]:not(:last-child) {
-		margin-right: 50px;
-	}
-
-	/*wistia*/
-	.videoWrapper {
-		position: relative;
-		height: 0;
-	}
-	* html .videoWrapper {
-		margin-bottom: 45px;
-	}
-	.videoWrapper .videoPadding {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		left: 0;
-		top: 0;
-	}
-	.videoWrapper .wistia_embed, .videoWrapper .wistia_playlist {
-		height: 100%;
-		width: 100%;
-	}
-	.wideScreen {
-		padding-bottom: 56.25%; /* hard-coded 16:9 aspect ratio */
-	}
-
-	/* end wistia*/
-	a.text-block-see-more {
-		display: block;
-		margin-top: 40px;
-	}
-	.evaluation-kb h3 {
-		border-bottom: 1px solid #ddd;
-		padding-bottom: 10px;
-		margin-bottom: 40px;
+		/* breadcrumb */
+		button.elm-hierarchy-trigger.mt-hierarchy-trigger.ui-button-icon.mt-icon-hierarchy-trigger-closed, button.elm-hierarchy-trigger.mt-hierarchy-trigger.ui-button-icon.mt-icon-hierarchy-trigger-open {
+			background-color: #F4F4F4;
+			margin: 0;
+			padding: 0 20px;
+			width: 70px;
+			height: 60px;
+			line-height: 60px;
+			color: transparent;
+			border-top-right-radius: 0px;
+			border-bottom-right-radius: 0px;
+		}
+		.mt-icon-hierarchy-trigger-closed:before, .mt-icon-hierarchy-trigger-open:before {
+			color: #788;
+		}
+		header#elm-header.elm-header nav.elm-header-global-nav.elm-nav div.elm-nav-container ol.mt-breadcrumbs {
+			width: calc(92.3%);
+			line-height: 60px;
+			border: none;
+			background-color: #F4F4F4;
+			padding-left: 20px;
+			border-top-right-radius: 3px;
+			border-bottom-right-radius: 3px;
+			margin-left: 5px;
+		}
+		.elm-hierarchy.mt-hierarchy.mt-tree.mt-filtered-tree {
+			margin-left: 0px;
+		}
 	}
 }
