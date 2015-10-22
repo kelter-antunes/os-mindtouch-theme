@@ -1,10 +1,12 @@
 /* base class to encapsule evaluation kb styles */
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] {
-  /* OrderedSubpages 
-	* https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/ViewsCategory/OrderedSubpages
+  /* 
+	OrderedSubpages 
+	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/ViewsCategory/OrderedSubpages
 	*/
-  /* OrderedSubpages 
-	* https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/ViewsCategory/OrderedSubpages
+  /* 
+	EvaluationGuideTopics 
+	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/EvaluationGuideTopics
 	*/
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] dd.mt-listing-detailed-image {
@@ -26,4 +28,19 @@
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] dd.mt-listing-detailed-image {
   position: absolute;
   bottom: 25px;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .more-related ul.related-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .more-related ul.related-list li.related-item a {
+  padding: 15px 20px;
+  border: 1px solid #EEE;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 2px 0px #EEEEEE;
+  -moz-box-shadow: 0px 1px 2px 0px #EEEEEE;
+  box-shadow: 0px 1px 2px 0px #EEEEEE;
+  margin-bottom: 5px;
+  display: block;
 }
