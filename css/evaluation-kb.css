@@ -195,17 +195,20 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .ui-selectmenu-text {
   width: 80%;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase] .mt-page-custom-title .mt-page-thumbnail img {
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .mt-page-thumbnail {
+  display: none;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] #title .mt-page-thumbnail img {
   border: none;
   box-shadow: none;
   margin: 0 20px 0 0;
   padding: 0;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase] .mt-page-custom-title .mt-page-thumbnail {
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] #title .mt-page-thumbnail {
   margin: 0;
   padding: 0;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase] .mt-page-custom-title h1 {
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] #title h1 {
   line-height: 48px;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] dl.mt-listing-detailed.mt-edit-section {
