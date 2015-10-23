@@ -6,7 +6,7 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   display: none;
   visibility: hidden;
 }
-/* base class to encapsule evaluation kb styles */
+/* base class to encapsulate evaluation kb styles */
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] {
   /*wistia*/
   /* end wistia*/
@@ -265,6 +265,31 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] nav.elm-header-global-nav.elm-nav {
   display: none;
   visibility: hidden;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .custom-breacrumb {
+  margin: 0 auto;
+  max-width: 80em;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .breadcrumb {
+  text-align: left;
+  margin-top: 30px;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .breadcrumb .crumb {
+  display: inline-block;
+  font-size: 12px;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .breadcrumb .crumb a,
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .breadcrumb .crumb a:hover {
+  color: #999;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .breadcrumb .parent.crumb {
+  text-decoration: underline;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .breadcrumb span.after:after {
+  content: '\00bb';
+  margin: 0 .75rem;
+  color: #999;
+  font-size: 12px;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] ol.elm-meta-data.elm-meta-top {
   display: none;

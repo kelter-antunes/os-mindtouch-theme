@@ -10,7 +10,7 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 	}
 }
 
-/* base class to encapsule evaluation kb styles */
+/* base class to encapsulate evaluation kb styles */
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] {
 
 	/*wistia*/
@@ -262,6 +262,31 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 	nav.elm-header-global-nav.elm-nav {
 		display: none;
 		visibility: hidden;
+	}
+	.custom-breacrumb {
+	    margin: 0 auto;
+	    max-width: 80em;
+	}
+	.breadcrumb{
+	    text-align: left;
+	    margin-top: 30px;
+	}
+	.breadcrumb .crumb {
+	    display: inline-block;
+	    font-size: 12px;
+	}
+	.breadcrumb .crumb a,
+	.breadcrumb .crumb a:hover{
+	    color: #999;
+	}
+	.breadcrumb .parent.crumb{
+	    text-decoration: underline;
+	}
+	.breadcrumb span.after:after{
+	    content: '\00bb';
+	    margin: 0 .75rem;
+	    color: #999;
+	    font-size: 12px;
 	}
 	ol.elm-meta-data.elm-meta-top {
 		display: none;
