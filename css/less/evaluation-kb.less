@@ -41,7 +41,12 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 		color: #0088CC;
 	}
 	h1 {
-		padding: 10px 0 10px;
+		border-bottom: 1px solid #CFD8DC;
+		color: #596669;
+		margin-bottom: 1.8rem;
+		margin-top: 3rem;
+		padding-bottom: .3em;
+		font-size: 32px;
 	}
 	h2 {
 		border-bottom: 1px solid #CFD8DC;
@@ -168,6 +173,21 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 	}
 	.ui-selectmenu-text {
 		width: 80%;
+	}
+	.mt-page-custom-title {
+		.mt-page-thumbnail img {
+			border: none;
+			box-shadow: none;
+			margin: 0 20px 0 0;
+			padding: 0;
+		}
+		.mt-page-thumbnail {
+			margin: 0;
+			padding: 0;
+		}
+		h1 {
+			line-height: 48px;
+		}
 	}
 
 	/* 
@@ -432,49 +452,57 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 			list-style: none;
 			margin: 0;
 			padding-left: 0;
-		}
-		.sidemenu-wrapper ul.sidemenu {
-			list-style: none;
-			margin: 0;
-			padding: 0;
-			background: #FFFFFF;
-			border: 1px solid #EEEEEE;
-			border-radius: 3px;
-			box-shadow: 0px 2px 2px 0px #E2EBEF;
-		}
-		.sidemenu-wrapper ul.sidemenu li a {
-			padding: 15px;
-			margin: 0px;
-			margin-left: 0px;
-			display: block;
-			border: none;
-			border-bottom: 1px solid #ECEFF1;
-			font-size: 13px;
-		}
-		.sidemenu-wrapper .sidemenu li a:hover {
-			background: #ECEFF1;
-		}
-		.sidemenu-wrapper ul.sidemenu li.active {
-			font-weight: bold;
-			position: relative;
-		}
-		.sidemenu-wrapper ul.sidemenu li.active:before, .sidemenu-wrapper ul.sidemenu li a:hover:before {
-			content: "";
-			border-left: 2px solid #c20;
-			position: absolute;
-			top: -1px;
-			bottom: -1px;
-			left: -3px;
-			border-top-left-radius: 3px;
-			border-bottom-left-radius: 3px;
-		}
-		.sidemenu-wrapper ul.sidemenu li {
-			padding: 0px;
-			margin: 0;
-			position: relative;
-		}
-		.sidemenu-wrapper ul.sidemenu li a {
-			color: #333;
+
+			ul.sidemenu {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				background: #FFF;
+				border: 1px solid #EEE;
+				border-radius: 3px;
+				box-shadow: 0 2px 60px 20px #eee;
+
+				li:focus {
+					outline: none;
+				}
+				li a {
+					padding: 15px;
+					margin: 0px;
+					margin-left: 0px;
+					display: block;
+					border: none;
+					border-bottom: 1px solid #ECEFF1;
+					font-size: 13px;
+				}
+				li a:focus {
+					outline: none;
+				}
+				li a:hover {
+					background: #ECEFF1;
+				}
+				li.active {
+					font-weight: bold;
+					position: relative;
+				}
+				li.active:before, li a:hover:before {
+					content: "";
+					border-left: 2px solid #c20;
+					position: absolute;
+					top: -1px;
+					bottom: -1px;
+					left: -3px;
+					border-top-left-radius: 3px;
+					border-bottom-left-radius: 3px;
+				}
+				li {
+					padding: 0px;
+					margin: 0;
+					position: relative;
+				}
+				li a {
+					color: #333;
+				}
+			}
 		}
 
 		/* breadcrumb */
