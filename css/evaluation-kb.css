@@ -1,6 +1,11 @@
 body.columbia-breadcrumb-home-evaluationknowledgebase {
   background-color: #ECEFF1;
 }
+/* styles just for the homepage*/
+.columbia-breadcrumb-home-evaluationknowledgebase .elm-content-footer {
+  display: none;
+  visibility: hidden;
+}
 /* base class to encapsule evaluation kb styles */
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] {
   /*wistia*/
