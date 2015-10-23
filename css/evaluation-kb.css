@@ -457,6 +457,9 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar article#elm-main-content {
   padding-left: 290px;
 }
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar h1#title {
+  line-height: 48px;
+}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper {
   position: absolute;
   left: 0;
