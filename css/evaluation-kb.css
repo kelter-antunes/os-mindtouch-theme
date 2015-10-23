@@ -267,12 +267,12 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   visibility: hidden;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] ol.elm-meta-data.elm-meta-top {
-  display: none;
-  visibility: hidden;
+  /*display: none;
+		visibility: hidden;*/
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] header h1#title {
-  display: none;
-  visibility: hidden;
+  /*display: none;
+		visibility: hidden;*/
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] input#kb-search {
   padding: 15px;
