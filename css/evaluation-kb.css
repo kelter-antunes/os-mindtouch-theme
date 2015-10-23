@@ -22,6 +22,14 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 	Evaluation HomePage HeroHeader 
 	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/Evaluation_HomePage_HeroHeader
 	*/
+  /*ol.elm-meta-data.elm-meta-top {
+		display: none;
+		visibility: hidden;
+	}
+	header h1#title {
+		display: none;
+		visibility: hidden;
+	}*/
   /* 
 	SearchBar 
 	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/SearchBar
@@ -292,14 +300,6 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   margin: 0 .75rem;
   color: #999;
   font-size: 12px;
-}
-[class*=columbia-breadcrumb-home-evaluationknowledgebase] ol.elm-meta-data.elm-meta-top {
-  display: none;
-  visibility: hidden;
-}
-[class*=columbia-breadcrumb-home-evaluationknowledgebase] header h1#title {
-  display: none;
-  visibility: hidden;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] input#kb-search {
   padding: 15px;
