@@ -423,6 +423,10 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   border-radius: 3px;
   box-shadow: 0 2px 60px 20px #eee;
 }
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidebar-cta-box .section {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidebar-cta-box .section h4 {
   margin-top: 0;
   font-size: 22px;
@@ -436,14 +440,13 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   font-size: 22px;
   margin: 0;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidebar-cta-box .section {
-  padding: 15px;
-  border-bottom: 1px solid #eee;
-}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidebar-cta-box .section h5 {
   font-size: 14px;
   font-weight: 800;
   margin: 0;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidebar-cta-box .section a {
+  margin-right: 50px;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidemenu-wrapper {
   display: none;
