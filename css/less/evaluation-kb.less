@@ -13,6 +13,21 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 /* base class to encapsulate evaluation kb styles */
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] {
 
+	/*
+	Flex utils
+	*/
+	.flex-container {
+		display: -ms-flex;
+		display: -webkit-flex;
+		display: flex;
+	}
+	.flex-container > div:not(:last-child) {
+		margin-right: 10%;
+	}
+	.flex-container > div.half {
+		width: 50%;
+	}
+
 	/*wistia*/
 	.videoWrapper {
 		position: relative;
@@ -191,6 +206,11 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 		h1 {
 			line-height: 48px;
 		}
+	}
+	.elm-content-container img {
+		border: none;
+		box-shadow: none;
+		height: auto !important;
 	}
 
 	/* 
@@ -453,8 +473,8 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 				font-weight: 800;
 				margin: 0;
 			}
-			a {
-				margin-right: 50px;
+			a:first-child {
+				margin-right: 60px;
 			}
 		}
 	}

@@ -8,6 +8,9 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 }
 /* base class to encapsulate evaluation kb styles */
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] {
+  /*
+	Flex utils
+	*/
   /*wistia*/
   /* end wistia*/
   /* 
@@ -42,6 +45,17 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 	Sidebar Menu
 	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/Sidebar_Menu
 	*/
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .flex-container {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .flex-container > div:not(:last-child) {
+  margin-right: 10%;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .flex-container > div.half {
+  width: 50%;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .videoWrapper {
   position: relative;
@@ -218,6 +232,11 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] #title h1 {
   line-height: 48px;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .elm-content-container img {
+  border: none;
+  box-shadow: none;
+  height: auto !important;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] dl.mt-listing-detailed.mt-edit-section {
   margin-bottom: 0;
@@ -448,8 +467,8 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   font-weight: 800;
   margin: 0;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidebar-cta-box .section a {
-  margin-right: 50px;
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidebar-cta-box .section a:first-child {
+  margin-right: 60px;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidemenu-wrapper {
   display: none;
