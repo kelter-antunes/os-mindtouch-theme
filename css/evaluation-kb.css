@@ -155,6 +155,24 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .elm-meta-article-navigation {
   border-bottom: 1px solid #ECEFF1;
+  font-size: 12px;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] ul.mt-feedback-rating-controls {
+  font-size: 12px;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .mt-feedback-rating-controls button:before {
+  font-size: 100%;
+  top: 0;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .mt-article-pagination .mt-pagination-previous {
+  border: none;
+  margin-right: 2em;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .mt-pagination-next a:after,
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .mt-pagination-next > span:after,
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .mt-pagination-previous a:before,
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .mt-pagination-previous > span:before {
+  top: 1px;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .elm-meta-top {
   font-size: 10px;
