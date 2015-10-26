@@ -238,15 +238,6 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .mt-page-thumbnail {
   display: none;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase] aside#mt-toc-container {
-  min-height: 50px;
-  margin: 0px 0px 0px 20px;
-  display: block;
-  background: #FFF;
-  border: 1px solid #EEE;
-  border-radius: 3px;
-  box-shadow: 0 1px 5px 0 #eee;
-}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] #title .mt-page-thumbnail img {
   border: none;
   box-shadow: none;
@@ -502,6 +493,15 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar {
   /* breadcrumb */
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar aside#mt-toc-container {
+  min-height: 50px;
+  margin: 0px 0px 0px 20px;
+  display: block;
+  background: #FFF;
+  border: 1px solid #EEE;
+  border-radius: 3px;
+  box-shadow: 0 1px 5px 0 #eee;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .breadcrumb-topic-parent {
   display: none;
