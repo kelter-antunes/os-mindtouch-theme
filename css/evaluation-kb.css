@@ -526,6 +526,9 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active {
   position: relative;
 }
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active ul.second-level {
+  display: block;
+}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active > a {
   font-weight: bold;
 }
@@ -549,6 +552,7 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: none;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level a {
   padding: 15px;
