@@ -585,10 +585,10 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   list-style: none;
   display: none;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level.active {
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level li.active {
   position: relative;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level.active ul.third-level {
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level li.active ul.third-level {
   display: block;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level a {
