@@ -9,6 +9,7 @@
         "grunt-contrib-qunit": "*",
         "grunt-contrib-jshint": "*",
         "grunt-contrib-uglify": "*",
-        "matchdep": "*"
+        "matchdep": "*",
+        "grunt-contrib-watch": "*"
     }
 }

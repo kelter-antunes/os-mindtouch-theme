@@ -18,24 +18,29 @@ module.exports = function(grunt) {
                     ]
                 }
             }
-        }/*,
-        uglify: {
-            options: {
-                compress: true
-            },
-            build: {
-                files: {
-                    'js/bundle/os-portal.js': [
-                        'js/src/portal-common.js',
-                        'js/src/bootstrap.js'
-                    ],
-                    'js/bundle/os-portal-extra.js': [
+        },
+        watch: {
+            files: ['<%= cssmin.sitecss.files %>'],
+            tasks: ['cssmin']
+        }
+        /*,
+                uglify: {
+                    options: {
+                        compress: true
+                    },
+                    build: {
+                        files: {
+                            'js/bundle/os-portal.js': [
+                                'js/src/portal-common.js',
+                                'js/src/bootstrap.js'
+                            ],
+                            'js/bundle/os-portal-extra.js': [
 
 
-                    ]
-                }
-            }
-        }*/
+                            ]
+                        }
+                    }
+                }*/
     });
     // Default task.
     //grunt.registerTask('default', ['cssmin', 'uglify']);
