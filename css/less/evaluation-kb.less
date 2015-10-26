@@ -525,7 +525,7 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 			display: none;
 			top: 0;
 			bottom: 0;
-			width: 230px;
+			width: 240px;
 			margin-top: 0;
 			padding-top: 50px;
 			list-style: none;
@@ -553,6 +553,9 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 						position: relative;
 
 						ul.second-level {
+							display: block;
+						}
+						ul.third-level {
 							display: block;
 						}
 					}
@@ -610,6 +613,27 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 							a:hover {
 								background: transparent;
 								color: #c20;
+							}
+						}
+						&.third-level {
+							margin: 0;
+							padding: 0;
+							list-style: none;
+							display: none;
+
+							li a {
+								margin-left: 45px;
+							}
+							li.active a {
+								color: #c20;
+								font-weight: 400;
+							}
+							li.active a:before {
+								content: "I";
+								margin-right: 10px;
+								display: inline-block;
+								height: 20px;
+								float: left;
 							}
 						}
 					}

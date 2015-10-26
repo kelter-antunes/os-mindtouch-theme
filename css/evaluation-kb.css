@@ -518,7 +518,7 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   display: none;
   top: 0;
   bottom: 0;
-  width: 230px;
+  width: 240px;
   margin-top: 0;
   padding-top: 50px;
   list-style: none;
@@ -554,6 +554,9 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   position: relative;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active ul.second-level {
+  display: block;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active ul.third-level {
   display: block;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active > a {
@@ -597,6 +600,26 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level a:hover {
   background: transparent;
   color: #c20;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.third-level {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: none;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.third-level li a {
+  margin-left: 45px;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.third-level li.active a {
+  color: #c20;
+  font-weight: 400;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.third-level li.active a:before {
+  content: "I";
+  margin-right: 10px;
+  display: inline-block;
+  height: 20px;
+  float: left;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar button.elm-hierarchy-trigger.mt-hierarchy-trigger.ui-button-icon.mt-icon-hierarchy-trigger-closed,
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar button.elm-hierarchy-trigger.mt-hierarchy-trigger.ui-button-icon.mt-icon-hierarchy-trigger-open {
