@@ -513,49 +513,71 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 				margin: 0;
 				padding: 0;
 				background: #FFF;
-				border: 1px solid #EEE;
+				//border: 1px solid #EEE;
 				border-radius: 3px;
-				box-shadow: 0 2px 60px 20px #eee;
+				//box-shadow: 0 2px 60px 20px #eee;
 
-				li:focus {
-					outline: none;
-				}
-				li a {
-					padding: 15px;
-					margin: 0px;
-					margin-left: 0px;
-					display: block;
-					border: none;
-					border-bottom: 1px solid #ECEFF1;
-					font-size: 13px;
-				}
-				li a:focus {
-					outline: none;
-				}
-				li a:hover {
-					background: #ECEFF1;
-				}
-				li.active {
-					font-weight: bold;
-					position: relative;
-				}
-				li.active:before, li a:hover:before {
-					content: "";
-					border-left: 2px solid #c20;
-					position: absolute;
-					top: -1px;
-					bottom: -1px;
-					left: -3px;
-					border-top-left-radius: 3px;
-					border-bottom-left-radius: 3px;
-				}
 				li {
 					padding: 0px;
 					margin: 0;
 					position: relative;
-				}
-				li a {
-					color: #333;
+
+					&:focus {
+						outline: none;
+					}
+					&.active {
+						position: relative;
+					}
+					&.active > a {
+						font-weight: bold;
+					}
+					a {
+						padding: 15px;
+						margin: 0px;
+						margin-left: 0px;
+						display: block;
+						border: none;
+						border-bottom: 1px solid #ECEFF1;
+						font-size: 13px;
+						color: #333;
+					}
+					a:focus {
+						outline: none;
+					}
+					a:hover {
+						background: #ECEFF1;
+					}
+					/*&.active:before, a:hover:before {
+						content: "";
+						border-left: 2px solid #c20;
+						position: absolute;
+						top: -1px;
+						bottom: -1px;
+						left: -3px;
+						border-top-left-radius: 3px;
+						border-bottom-left-radius: 3px;
+					}*/
+					ul {
+						&.second-level {
+							margin: 0;
+							padding: 0;
+							list-style: none;
+
+							a {
+								padding: 15px;
+								padding-left: 0;
+								margin-left: 30px;
+								display: block;
+								border: none;
+								color: #08c;
+								border-bottom: 1px solid #ECEFF1;
+							}
+							a:hover {
+								background: transparent;
+								color: #c20;
+							}
+						}
+					}
 				}
 			}
 		}
