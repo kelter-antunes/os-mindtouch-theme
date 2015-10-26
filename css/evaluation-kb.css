@@ -615,15 +615,15 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   font-weight: 400;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level.third-level li a:before {
-  content: "I";
+  content: "";
   margin-right: 10px;
-  display: inline-block;
-  height: 20px;
   float: left;
-  color: gray;
+  border-left: 2px solid #eee;
+  height: 16px;
+  margin-bottom: 3px;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level.third-level li.active a:before {
-  color: #c20;
+  border-left: 2px solid #c20;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar button.elm-hierarchy-trigger.mt-hierarchy-trigger.ui-button-icon.mt-icon-hierarchy-trigger-closed,
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar button.elm-hierarchy-trigger.mt-hierarchy-trigger.ui-button-icon.mt-icon-hierarchy-trigger-open {
