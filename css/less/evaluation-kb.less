@@ -555,9 +555,6 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 						ul.second-level {
 							display: block;
 						}
-						ul.third-level {
-							display: block;
-						}
 					}
 					&.active > a {
 						font-weight: bold;
@@ -601,6 +598,13 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 							list-style: none;
 							display: none;
 
+							&.active {
+								position: relative;
+
+								ul.third-level {
+									display: block;
+								}
+							}
 							a {
 								padding: 15px;
 								padding-left: 0;
@@ -614,7 +618,8 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 								background: transparent;
 								color: #c20;
 							}
-							&.third-level {
+
+							.third-level {
 								margin: 0;
 								padding: 0;
 								list-style: none;

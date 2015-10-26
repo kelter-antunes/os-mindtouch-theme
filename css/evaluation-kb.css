@@ -556,9 +556,6 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active ul.second-level {
   display: block;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active ul.third-level {
-  display: block;
-}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active > a {
   font-weight: bold;
 }
@@ -588,6 +585,12 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   list-style: none;
   display: none;
 }
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level.active {
+  position: relative;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level.active ul.third-level {
+  display: block;
+}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level a {
   padding: 15px;
   padding-left: 0;
@@ -601,20 +604,20 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   background: transparent;
   color: #c20;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level.third-level {
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level .third-level {
   margin: 0;
   padding: 0;
   list-style: none;
   display: none;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level.third-level li a {
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level .third-level li a {
   margin-left: 45px;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level.third-level li.active a {
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level .third-level li.active a {
   color: #c20;
   font-weight: 400;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level.third-level li a:before {
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level .third-level li a:before {
   content: "";
   margin-right: 10px;
   float: left;
@@ -622,7 +625,7 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   height: 16px;
   margin-bottom: 3px;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level.third-level li.active a:before {
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level .third-level li.active a:before {
   border-left: 2px solid #c20;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].body-with-sidebar button.elm-hierarchy-trigger.mt-hierarchy-trigger.ui-button-icon.mt-icon-hierarchy-trigger-closed,
