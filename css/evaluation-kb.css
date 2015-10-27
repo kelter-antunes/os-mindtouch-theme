@@ -256,7 +256,7 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   box-shadow: none;
   height: auto !important;
 }
-[class*=columbia-breadcrumb-home-evaluationknowledgebase] .columbia-article-topic .elm-related-articles-container {
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .elm-related-articles-container {
   display: none;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] ol.elm-meta-data.elm-meta-bottom {
