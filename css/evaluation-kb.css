@@ -300,7 +300,7 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   padding: 0;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .more-related ul.related-list li.related-item a {
-  padding: 15px 20px;
+  padding: 15px 40px 15px 20px;
   border: 1px solid #EEE;
   border-radius: 3px;
   -webkit-box-shadow: 0px 1px 2px 0px #EEEEEE;
@@ -308,6 +308,23 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   box-shadow: 0px 1px 2px 0px #EEEEEE;
   margin-bottom: 5px;
   display: block;
+  position: relative;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .more-related ul.related-list li.related-item a:after {
+  content: "";
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAlCAYAAACgc9J8AAAAkklEQVR4AWM4+eBtyoXH36QZqAFO3n/XeeLeu9tUMfDkvfe5J+69/U8VAx8//s954v67M1Qz8NLDD4KjBo4aSACMGjhq4NtbFBt44uFnLWDh+hdq4BqyDTp1/4vEyftvb4AMAhp4/uSTT8IjwaBRg0YNGjXo6qv/PBQahABAQ0qQDaK45UipQQjDHryLghhEOQAAq/gfgv9KmRoAAAAASUVORK5CYII=');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 19px;
+  height: 37px;
+  right: 10px;
+  top: 50%;
+  margin-top: -18.5px;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .more-related ul.related-list li.related-item a span {
+  color: #333;
+  display: block;
+  margin-top: 10px;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] nav.elm-header-global-nav.elm-nav {
   display: none;
