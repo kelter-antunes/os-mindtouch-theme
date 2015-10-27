@@ -271,6 +271,9 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 [class*=columbia-breadcrumb-home-evaluationknowledgebase].columbia-article-topic-guide .sidebar-cta-box.contact-us {
   display: none;
 }
+[class*=columbia-breadcrumb-home-evaluationknowledgebase].columbia-article-topic-category footer.elm-content-footer {
+  display: none;
+}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] dl.mt-listing-detailed.mt-edit-section {
   margin-bottom: 0;
   padding: 25px 25px 75px;
