@@ -50,7 +50,7 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 	*/
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] a.btn {
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 1px;
   display: inline-block;
   padding: 4px 12px;
@@ -64,11 +64,16 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+  outline: none;
+  border: none;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] a.btn:active,
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] a.btn:hover {
   color: #333;
   background-color: #e6e6e6;
+  outline: none;
+  border: none;
+  box-shadow: none;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] a.btn-large {
   padding: 6px 12px;
@@ -591,6 +596,18 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   border: 1px solid #EEE;
   border-radius: 3px;
   box-shadow: 0 1px 5px 0px #eee;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidebar-cta-box.contact-us {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidebar-cta-box.contact-us h4 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidebar-cta-box .section {
   padding: 15px;
