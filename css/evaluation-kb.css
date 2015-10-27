@@ -299,8 +299,13 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   margin: 0;
   padding: 0;
 }
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .more-related ul.related-list li.related-item {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .more-related ul.related-list li.related-item a {
-  padding: 15px 40px 15px 20px;
+  padding: 20px 50px 20px 30px;
   border: 1px solid #EEE;
   border-radius: 3px;
   -webkit-box-shadow: 0px 1px 2px 0px #EEEEEE;
@@ -317,7 +322,7 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   position: absolute;
   width: 19px;
   height: 37px;
-  right: 10px;
+  right: 15px;
   top: 50%;
   margin-top: -18.5px;
 }
