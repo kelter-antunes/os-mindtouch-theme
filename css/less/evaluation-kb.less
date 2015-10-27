@@ -235,16 +235,23 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 		box-shadow: none;
 		height: auto !important;
 	}
-
-	.elm-related-articles-container{
+	.elm-related-articles-container {
 		display: none;
 	}
-	ol.elm-meta-data.elm-meta-bottom{
+	ol.elm-meta-data.elm-meta-bottom {
 		display: none;
 	}
-
-	section#attachments{
+	section#attachments {
 		display: none;
+	}
+	//second level pages with childs
+	&.columbia-article-topic-guide {
+		footer.elm-content-footer {
+			display: none;
+		}
+		.sidebar-cta-box.contact-us {
+			display: none;
+		}
 	}
 
 	/* 
@@ -563,7 +570,7 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 		h1#title {
 			line-height: 48px;
 		}
-		h1#title a.toggle-link{
+		h1#title a.toggle-link {
 			line-height: 1;
 		}
 		.sidemenu-wrapper {
