@@ -256,6 +256,15 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   box-shadow: none;
   height: auto !important;
 }
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .columbia-article-topic .elm-related-articles-container {
+  display: none;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] ol.elm-meta-data.elm-meta-bottom {
+  display: none;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] section#attachments {
+  display: none;
+}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] dl.mt-listing-detailed.mt-edit-section {
   margin-bottom: 0;
   padding: 25px 25px 75px;
