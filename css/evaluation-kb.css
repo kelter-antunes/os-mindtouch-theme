@@ -534,6 +534,10 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidebar-cta-box .section .short-link-mail {
   margin-left: 10px;
 }
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidebar-cta-box .section .short-link-hover span:before,
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidebar-cta-box .section .short-link-mail span:before {
+  margin-right: 5px;
+}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .sidemenu-wrapper {
   display: none;
 }
