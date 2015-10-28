@@ -29,6 +29,13 @@ form#WebForm1 {
   background-repeat: no-repeat;
   background-position: 100% 0;
 }
+.wrapper.thanks {
+  text-align: center;
+  background-image: url('//www.outsystems.com/MindTouchEndpoint/img/Path_2_PaperPlane.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 50%;
+}
 textarea {
   background: #F8F8F8;
   border: 1px solid #E7ECED;
