@@ -15,7 +15,7 @@ module.exports = function(grunt) {
                     ],
 
                     'css/bundle/os-mt-core.min.css': [
-                        'css/bootstrap.css'
+                        'css/common.css'
                     ],
                     'css/bundle/os-mt-kbs.min.css': [
                         'css/evaluation-kb.css',
