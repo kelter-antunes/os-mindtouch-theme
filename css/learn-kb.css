@@ -53,6 +53,9 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
   display: none;
   visibility: hidden;
 }
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .featherlight .featherlight-content {
+  min-width: 0;
+}
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] a.btn {
   font-weight: 400;
   letter-spacing: 1px;
