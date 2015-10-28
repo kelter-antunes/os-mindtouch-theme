@@ -57,6 +57,11 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
   min-width: 0;
   background: transparent;
 }
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .featherlight .featherlight-inner {
+  background: #FFFFFF;
+  border: 6px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] a.btn {
   font-weight: 400;
   letter-spacing: 1px;
