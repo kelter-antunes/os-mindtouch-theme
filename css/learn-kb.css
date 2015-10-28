@@ -184,9 +184,6 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
   padding-bottom: 56.25%;
   /* hard-coded 16:9 aspect ratio */
 }
-[class*=columbia-breadcrumb-home-learnaboutoutsystems] a {
-  color: #0088CC;
-}
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] h1 {
   border-bottom: 1px solid #CFD8DC;
   color: #596669;
@@ -661,6 +658,11 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .sidemenu-wrapper {
   display: none;
+}
+@media all and (min-width: 37.5em) {
+  [class*=columbia-breadcrumb-home-learnaboutoutsystems] .sidemenu-wrapper {
+    padding: 1.3rem;
+  }
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar {
   /* breadcrumb */
