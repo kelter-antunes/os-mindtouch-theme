@@ -55,6 +55,7 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .featherlight .featherlight-content {
   min-width: 0;
+  background: transparent;
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] a.btn {
   font-weight: 400;
