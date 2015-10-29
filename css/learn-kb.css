@@ -245,9 +245,13 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
   font-size: 1rem;
   text-align: center;
 }
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .elm-article-feedback {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .elm-content-footer {
   border-top: 1px solid #ECEFF1;
-  margin-top: 80px;
+  margin-top: 0;
   padding: 15px 20px 20px;
   position: relative;
   background: none;
