@@ -732,6 +732,11 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 	.sidemenu-wrapper {
 		display: none;
 	}
+	@media all and (min-width:37.5em) {
+		.sidemenu-wrapper {
+			margin-left: 1.3rem !important;
+		}
+	}
 	&.body-with-sidebar {
 		aside#mt-toc-container {
 			min-height: 50px;
@@ -915,25 +920,3 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 		}
 	}
 }
-/*
-@media all and (min-width:37.5em) {
-
-	[class*=columbia-breadcrumb-home-learnaboutoutsystems] {
-		.sidemenu-wrapper {
-			margin-left: 1.3rem !important;
-		}
-	}
-}
-@media (min-width:18.75em) {
-
-
-	[class*=columbia-breadcrumb-home-learnaboutoutsystems] {
-		.sidemenu-wrapper {
-			display: none !important;
-			visibility: hidden;
-		}
-		article#elm-main-content {
-			padding: .65rem .65rem 4em !important;
-		}
-	}
-}*/
