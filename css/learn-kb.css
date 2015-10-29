@@ -710,11 +710,6 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .sidemenu-wrapper {
   display: none;
 }
-@media all and (min-width: 37.5em) {
-  [class*=columbia-breadcrumb-home-learnaboutoutsystems] .sidemenu-wrapper {
-    margin-left: 1.3rem !important;
-  }
-}
 [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar {
   /* breadcrumb */
 }
@@ -884,4 +879,20 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar .elm-hierarchy.mt-hierarchy.mt-tree.mt-filtered-tree {
   margin-left: 0px;
+}
+@media all and (min-width: 37.5em) {
+  /* base class to encapsulate evaluation kb styles */
+  [class*=columbia-breadcrumb-home-learnaboutoutsystems] .sidemenu-wrapper {
+    margin-left: 1.3rem !important;
+  }
+}
+@media (min-width: 18.75em) {
+  /* base class to encapsulate evaluation kb styles */
+  [class*=columbia-breadcrumb-home-learnaboutoutsystems] .sidemenu-wrapper {
+    display: none !important;
+    visibility: hidden;
+  }
+  [class*=columbia-breadcrumb-home-learnaboutoutsystems] article#elm-main-content {
+    padding: .65rem .65rem 4em !important;
+  }
 }
