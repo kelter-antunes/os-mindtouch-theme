@@ -637,6 +637,10 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
   justify-content: space-between;
   padding: 15px 50px;
 }
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .sidebar-cta-box.contact-us span {
+  display: none;
+  visibility: hidden;
+}
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .sidebar-cta-box.contact-us h4 {
   display: inline-block;
   margin: 0;
