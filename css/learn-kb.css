@@ -50,8 +50,10 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 	*/
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] span.featherlight-close-icon.featherlight-close {
-  top: 6px;
-  right: 6px;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.5);
+  top: 12px;
+  right: 12px;
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .featherlight .featherlight-content {
   min-width: 0;
@@ -248,6 +250,15 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .elm-article-feedback {
   margin-bottom: 40px;
   margin-top: 40px;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] li.mt-rating-yes.mt-feedback-rating-item,
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] li.mt-rating-no.mt-feedback-rating-item {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] button.mt-feedback-button.mt-feedback-rating-button.ui-button-icon.mt-icon-leave-feedback {
+  display: none;
+  visibility: hidden;
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .elm-content-footer {
   border-top: 1px solid #ECEFF1;
