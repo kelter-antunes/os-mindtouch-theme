@@ -520,29 +520,6 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
   color: #FFFFFF;
   line-height: 16px;
 }
-[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-hero .text {
-  -ms-flex: 1 1 36.5em;
-  -webkit-flex: 1 1 36.5em;
-  flex: 1 1 36.5em;
-  min-width: 0;
-}
-[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-hero .form-field {
-  -ms-flex: 1 1 36.5em;
-  -webkit-flex: 1 1 36.5em;
-  flex: 1 1 36.5em;
-  min-width: 0;
-  padding-left: 100px;
-}
-[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-hero .elm-content-container {
-  justify-content: center;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  align-items: center;
-}
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .recommended-articles {
   overflow-wrap: break-word;
   padding: 35px 25px;
