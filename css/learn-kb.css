@@ -712,7 +712,7 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 }
 @media all and (min-width: 37.5em) {
   [class*=columbia-breadcrumb-home-learnaboutoutsystems] .sidemenu-wrapper {
-    padding: 1.3rem;
+    margin-left: 1.3rem !important;
   }
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar {
