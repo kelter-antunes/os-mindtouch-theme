@@ -50,8 +50,8 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 	*/
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] span.featherlight-close-icon.featherlight-close {
-  display: none;
-  visibility: hidden;
+  top: 6px;
+  right: 6px;
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .featherlight .featherlight-content {
   min-width: 0;
