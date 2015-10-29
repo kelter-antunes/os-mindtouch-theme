@@ -226,13 +226,21 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 		text-align: center;
 	}
 	.elm-content-footer {
-		background: red;
-		background-image: radial-gradient(0% 100%, red 50%, #FFFFFF 100%);
 		border-top: 1px solid #ECEFF1;
-		box-shadow: inset 0px 4px 10px 0px rgba(213, 213, 213, 0.30);
 		margin-top: 80px;
-		padding: 20px;
-		padding-top: 15px;
+		padding: 15px 20px 20px;
+		position: relative;
+		background: none;
+
+		&:before {
+			position: absolute;
+			right: 0;
+			left: 0;
+			top: 0;
+			content: "";
+			height: 17px;
+			background-image: linear-gradient(0deg, #FFFFFF 0%, #F3F3F3 100%);
+		}
 	}
 	.elm-header-global-nav a {
 		font-size: 12px;
