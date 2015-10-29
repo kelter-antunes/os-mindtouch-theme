@@ -632,7 +632,7 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] input#kb-search {
   z-index: 99;
   position: relative;
-  padding-left: 10px;
+  padding-left: 25px;
   box-sizing: border-box;
   border: 1px solid #D8D8D8;
   -webkit-box-shadow: 0px 1px 2px 0px #EEEEEE;
