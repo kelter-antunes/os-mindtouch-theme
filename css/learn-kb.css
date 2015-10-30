@@ -49,6 +49,10 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/Sidebar_Menu
 	*/
 }
+[class*=columbia-breadcrumb-home-learnaboutoutsystems]:not(.elm-user-pro-edit) ol.elm-meta-data.elm-meta-top li.elm-last-modified,
+[class*=columbia-breadcrumb-home-learnaboutoutsystems]:not(.elm-user-pro-edit) ol.elm-meta-data.elm-meta-top li.elm-page-restriction {
+  display: none;
+}
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] span.featherlight-close-icon.featherlight-close {
   font-size: 18px;
   background: rgba(255, 255, 255, 0.5);

@@ -20,6 +20,11 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 
 /* base class to encapsulate evaluation kb styles */
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] {
+	//hide last updated and restrtictions
+	&:not(.elm-user-pro-edit) ol.elm-meta-data.elm-meta-top li.elm-last-modified,
+	&:not(.elm-user-pro-edit) ol.elm-meta-data.elm-meta-top li.elm-page-restriction{
+		display:none;
+	}
 	//hide close icon on popup
 	span.featherlight-close-icon.featherlight-close {
 		font-size: 18px;
