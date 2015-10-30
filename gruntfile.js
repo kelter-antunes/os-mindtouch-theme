@@ -15,6 +15,7 @@ module.exports = function(grunt) {
                     ],
 
                     'css/bundle/os-mt-core.min.css': [
+                        'css/mindtouch.custom.all.css',
                         'css/common.css'
                     ],
                     'css/bundle/os-mt-kbs.min.css': [
