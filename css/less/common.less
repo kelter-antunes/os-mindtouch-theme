@@ -62,3 +62,39 @@
     opacity: 1;
   }
 }
+/* Customized Draft bar for UX Policies */
+.elm-header-notice{
+  &.uxpolicy{
+    vertical-align: middle;
+    line-height: 30px;
+    min-height: 50px;
+  
+    .unlisted, .private,
+    .public, .semi-private{
+      color: #363636;
+    }
+    .unlisted {
+      background: #FF9800;
+      border: 1px solid #FF9800;
+    }
+    .private{
+      background: #E57373;
+      border: 1px solid #E57373;
+    }
+    .public{
+      background: #DCEDC8;
+      border: 1px solid #DCEDC8;
+    }
+    dl dd {
+      font-size: 12px;
+      margin-top: .5em;
+    }
+    .mt-notice-controls a {
+      height: auto;
+      overflow: visible;
+      width: auto;
+      color: #363636;
+      font-weight: 700;
+    }
+  }
+}
