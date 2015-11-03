@@ -63,12 +63,14 @@
   }
 }
 /* Customized Draft bar for UX Policies */
-.elm-header-notice{
+nav.elm-nav.elm-header-notice{
   &.uxpolicy{
+    position: relative;
+    top: 0;
     vertical-align: middle;
     line-height: 30px;
     min-height: 50px;
-  
+    
     .unlisted, .private,
     .public, .semi-private{
       color: #363636;
@@ -87,7 +89,11 @@
     }
     dl dd {
       font-size: 12px;
-      margin-top: .5em;
+    }
+    dl{
+      display: table-cell;
+      vertical-align: middle;
+      height: 50px;
     }
     .mt-notice-controls a {
       height: auto;
