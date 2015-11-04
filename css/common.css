@@ -66,6 +66,7 @@ nav.elm-nav.elm-header-notice.uxpolicy {
   vertical-align: middle;
   line-height: 30px;
   min-height: 50px;
+  border: none;
 }
 nav.elm-nav.elm-header-notice.uxpolicy .unlisted,
 nav.elm-nav.elm-header-notice.uxpolicy .private,
