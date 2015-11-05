@@ -419,9 +419,12 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] dd.mt-listing-detailed-image {
   position: absolute;
-  bottom: 25px;
+  top: 25px;
   height: 38px;
   margin: 0;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] dt.mt-listing-detailed-title {
+  margin-left: 4.5em;
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] dt.mt-listing-detailed-title a h4 {
   margin-top: 0;
@@ -429,17 +432,23 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
   padding-left: 0;
   font-weight: 800;
 }
-[class*=columbia-breadcrumb-home-learnaboutoutsystems] dt.mt-listing-detailed-title a {
-  border-bottom: 1px solid #eee;
-}
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing {
   position: relative;
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] dd.mt-listing-detailed-navigation {
   position: absolute;
-  right: 20px;
+  left: 25px;
   bottom: 37px;
-  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 7px 10px;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+  background: #f0f0f0;
+  font-weight: 600;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] dd.mt-listing-detailed-navigation a {
+  color: #555;
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .more-related ul.related-list {
   list-style: none;
