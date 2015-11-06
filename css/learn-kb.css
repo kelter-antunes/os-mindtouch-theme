@@ -1,3 +1,4 @@
+/* Dynamically add color to the cards on Learn About OutSystems Home Page  */
 body.columbia-breadcrumb-home-learnaboutoutsystems {
   background-color: #ECEFF1;
 }
@@ -434,6 +435,50 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing {
   position: relative;
+  border-top-width: 3px;
+  border-top-style: solid;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing.area-1 {
+  border-top-color: #F44336;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing.area-2 {
+  border-top-color: #E91E63;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing.area-3 {
+  border-top-color: #9C27B0;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing.area-4 {
+  border-top-color: #673AB7;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing.area-5 {
+  border-top-color: #3F51B5;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing.area-6 {
+  border-top-color: #2196F3;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing.area-7 {
+  border-top-color: #03A9F4;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing.area-8 {
+  border-top-color: #00BCD4;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing.area-9 {
+  border-top-color: #009688;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing.area-10 {
+  border-top-color: #4CAF50;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing.area-11 {
+  border-top-color: #8BC34A;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing.area-12 {
+  border-top-color: #CDDC39;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing.area-13 {
+  border-top-color: #FFEB3B;
+}
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing.area-14 {
+  border-top-color: #FFC107;
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] dd.mt-listing-detailed-navigation {
   position: absolute;

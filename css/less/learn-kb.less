@@ -1,3 +1,15 @@
+/* Dynamically add color to the cards on Learn About OutSystems Home Page  */
+@array: color #F44336, color #E91E63, color #9C27B0, color #673AB7, color #3F51B5, 
+		color #2196F3, color #03A9F4, color #00BCD4, color #009688, color #4CAF50, color #8BC34A, 
+		color #CDDC39, color #FFEB3B, color #FFC107;
+
+.createcolorclasses(@iterator:1) when(@iterator <= length(@array)) {
+	&.area-@{iterator} {
+   		border-top-color: extract(extract(@array, @iterator),2);
+	}
+	.createcolorclasses((@iterator + 1));
+}	
+
 body.columbia-breadcrumb-home-learnaboutoutsystems {
 	background-color: #ECEFF1;
 }
@@ -424,6 +436,10 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 	}
 	.evaluation-kb li.mt-sortable-listing {
 		position: relative;
+		border-top-width: 3px;
+		border-top-style: solid;
+
+		.createcolorclasses();
 	}
 	dd.mt-listing-detailed-navigation {
 		position: absolute;
