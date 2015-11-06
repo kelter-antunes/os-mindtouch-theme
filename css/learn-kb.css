@@ -274,7 +274,7 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
   max-width: 80em;
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .elm-header-custom .top-nav .search-bar {
-  max-width: 240px;
+  width: 240px;
   margin-right: 50px;
   display: inline-block;
 }
