@@ -950,15 +950,10 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
   }
 }
 @media all and (min-width: 37.5em) {
-  [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar {
-    /*
-			.sidemenu-wrapper {
-				display: block;
-			}
-			
-			article#elm-main-content {
-				padding-left: 290px;
-			}
-			*/
+  [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar .sidemenu-wrapper {
+    display: block;
+  }
+  [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar article#elm-main-content {
+    padding-left: 290px;
   }
 }
