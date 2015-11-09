@@ -941,9 +941,9 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar .elm-hierarchy.mt-hierarchy.mt-tree.mt-filtered-tree {
   margin-left: 0px;
 }
-@media all and (min-width: 25em) {
+@media all and (min-width: 18.75em) {
   [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar .sidemenu-wrapper {
-    display: none !important;
+    display: none;
   }
   [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar article#elm-main-content {
     padding-left: 0.65rem;
