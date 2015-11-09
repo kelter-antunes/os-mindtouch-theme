@@ -49,13 +49,6 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 	Sidebar Menu
 	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/Sidebar_Menu
 	*/
-  /*
-	@media all and (min-width:37.5em) {
-		.sidemenu-wrapper {
-			margin-left: 1.3rem !important;
-		}
-	}
-	*/
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems]:not(.elm-user-pro-edit) ol.elm-meta-data.elm-meta-top li.elm-last-modified,
 [class*=columbia-breadcrumb-home-learnaboutoutsystems]:not(.elm-user-pro-edit) ol.elm-meta-data.elm-meta-top li.elm-page-restriction {
@@ -947,4 +940,25 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar .elm-hierarchy.mt-hierarchy.mt-tree.mt-filtered-tree {
   margin-left: 0px;
+}
+@media all and (min-width: 25em) {
+  [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar .sidemenu-wrapper {
+    display: none !important;
+  }
+  [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar article#elm-main-content {
+    padding-left: 0.65rem;
+  }
+}
+@media all and (min-width: 37.5em) {
+  [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar {
+    /*
+			.sidemenu-wrapper {
+				display: block;
+			}
+			
+			article#elm-main-content {
+				padding-left: 290px;
+			}
+			*/
+  }
 }
