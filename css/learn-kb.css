@@ -961,6 +961,9 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
   [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar article#elm-main-content {
     padding-left: 0.65rem;
   }
+  [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar .sidebar-cta-box.contact-us {
+    padding: 15px;
+  }
 }
 @media all and (min-width: 37.5em) {
   [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar .top-nav {
@@ -976,5 +979,8 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
   }
   [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar article#elm-main-content {
     padding-left: 290px;
+  }
+  [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar .sidebar-cta-box.contact-us {
+    padding: 15px 50px;
   }
 }
