@@ -964,6 +964,9 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
     padding: 0;
     line-height: inherit;
   }
+  [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar .top-nav .page {
+    display: inline-block;
+  }
   [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar .sidemenu-wrapper {
     display: block !important;
   }
