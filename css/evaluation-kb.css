@@ -379,6 +379,7 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   display: inline-block;
   width: 40%;
   margin-right: 10%;
+  vertical-align: top;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] dd.mt-listing-detailed-subpages {
   display: inline-block;
