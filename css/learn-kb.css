@@ -271,6 +271,9 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
   margin-right: 50px;
   display: inline-block;
 }
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .elm-header-custom .top-nav .page {
+  display: inline-block;
+}
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .elm-header-custom .top-nav .breadcrumb {
   text-align: left;
   margin-top: 30px;
@@ -942,6 +945,13 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
   margin-left: 0px;
 }
 @media all and (min-width: 18.75em) {
+  [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar .top-nav {
+    padding: 0 .65rem;
+    line-height: 2;
+  }
+  [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar .top-nav .page {
+    display: block;
+  }
   [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar .sidemenu-wrapper {
     display: none !important;
   }
@@ -950,6 +960,10 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
   }
 }
 @media all and (min-width: 37.5em) {
+  [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar .top-nav {
+    padding: 0;
+    line-height: inherit;
+  }
   [class*=columbia-breadcrumb-home-learnaboutoutsystems].body-with-sidebar .sidemenu-wrapper {
     display: block !important;
   }
