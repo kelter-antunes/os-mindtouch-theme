@@ -447,6 +447,7 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
   display: inline-block;
   width: 40%;
   margin-right: 10%;
+  vertical-align: top;
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] dd.mt-listing-detailed-subpages {
   display: inline-block;
