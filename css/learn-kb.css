@@ -29,6 +29,23 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 	OrderedSubpages 
 	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/ViewsCategory/OrderedSubpages
 	*/
+  /*
+	dd.mt-listing-detailed-navigation {
+		position: absolute;
+	    left: 25px;
+	    bottom: 37px;
+	    text-transform: uppercase;
+	    font-size: 10px;
+	    padding: 7px 10px;
+	    border: 1px solid #f0f0f0;
+	    border-radius: 2px;
+	    background: #f0f0f0;
+	    font-weight: 600;
+	}
+	dd.mt-listing-detailed-navigation a {
+    	color: #555;
+	}
+	*/
   /* 
 	Evaluation Guide Topics 
 	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/EvaluationGuideTopics
@@ -441,7 +458,7 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] dl.mt-listing-detailed.mt-edit-section {
   margin-bottom: 0;
-  padding: 25px 25px 75px;
+  padding: 25px 25px;
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .mt-listing-detailed-overview {
   display: inline-block;
@@ -475,21 +492,6 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
   border-left: none;
   padding-left: 0;
   font-weight: 800;
-}
-[class*=columbia-breadcrumb-home-learnaboutoutsystems] dd.mt-listing-detailed-navigation {
-  position: absolute;
-  left: 25px;
-  bottom: 37px;
-  text-transform: uppercase;
-  font-size: 10px;
-  padding: 7px 10px;
-  border: 1px solid #f0f0f0;
-  border-radius: 2px;
-  background: #f0f0f0;
-  font-weight: 600;
-}
-[class*=columbia-breadcrumb-home-learnaboutoutsystems] dd.mt-listing-detailed-navigation a {
-  color: #555;
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .more-related ul.related-list {
   list-style: none;
