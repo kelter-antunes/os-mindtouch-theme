@@ -25,6 +25,21 @@ body.columbia-breadcrumb-home-evaluation {
 	*/
   /*wistia*/
   /* end wistia*/
+  /*table {
+		border: 1px solid #eee;
+		margin-top: 40px;
+	}
+	table td {
+		background: #ECEFF1;
+		border: none;
+	}
+	thead tr th {
+		background: rgba(113, 174, 214, 0.70);
+		border: none;
+		color: #384142;
+		font-size: 1rem;
+		text-align: center;
+	}*/
   /* 
 	OrderedSubpages 
 	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/ViewsCategory/OrderedSubpages
@@ -253,21 +268,6 @@ body.columbia-breadcrumb-home-evaluation {
 }
 [class*=columbia-breadcrumb-home-evaluation] h4 ~ ul li {
   margin-left: 3%;
-}
-[class*=columbia-breadcrumb-home-evaluation] table {
-  border: 1px solid #eee;
-  margin-top: 40px;
-}
-[class*=columbia-breadcrumb-home-evaluation] table td {
-  background: #ECEFF1;
-  border: none;
-}
-[class*=columbia-breadcrumb-home-evaluation] thead tr th {
-  background: rgba(113, 174, 214, 0.7);
-  border: none;
-  color: #384142;
-  font-size: 1rem;
-  text-align: center;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-article-feedback {
   margin-bottom: 40px;
