@@ -591,6 +591,17 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing.area-14 {
   border-left-color: #FFC107;
 }
+[class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing:after {
+  content: "";
+  background-image: url(/%40api/deki/files/1264/arrow-right.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 19px;
+  height: 37px;
+  right: 15px;
+  top: 50%;
+  margin-top: -18.5px;
+}
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb span.mt-icon-article-topic-guide {
   display: none;
   visibility: hidden;
