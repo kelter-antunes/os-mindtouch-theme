@@ -596,7 +596,7 @@ body.columbia-breadcrumb-home-learnaboutoutsystems {
 }
 [class*=columbia-breadcrumb-home-learnaboutoutsystems] .evaluation-kb li.mt-sortable-listing:after {
   content: "";
-  background-image: url(/%40api/deki/files/1264/arrow-right.jpg);
+  background-image: url("https://success.outsystems.com/%40api/deki/files/1264/arrow-right.jpg");
   background-repeat: no-repeat;
   position: absolute;
   width: 19px;
