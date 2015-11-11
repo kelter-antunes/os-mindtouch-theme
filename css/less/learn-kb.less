@@ -1017,37 +1017,53 @@ body.columbia-breadcrumb-home-evaluation {
 		}
 	}
 	@media all and (min-width:18.75em){
+		.elm-content-container {
+		    padding: .65rem .65rem 2em;
+		}
 		.evaluation-kb li.mt-sortable-listing{
 	        padding: 0px;
 	    }
-	    dt.mt-listing-detailed-title{
-	    	margin-left: 4em;
-	        font-size: 10px;
-	    }
-	    .mt-listing-detailed-subpages{
+	    dd.mt-listing-detailed-image {
+			top: 10px;
+		}
+	    dt.mt-listing-detailed-title {
+		    margin: 20px 0 0 0;
+		    font-size: 10px;
+		}
+	    dd.mt-listing-detailed-subpages{
 	        display: none;
 	    }
 	    dd.mt-listing-detailed-overview{
-	        display: block;
-	        width: 100%;
+			width: 85%;
+    		margin-bottom: 20px;
 	    }
 	    .sidebar-cta-box.contact-us{
 			padding: 15px;
 		}
 	}
 	@media all and (min-width:37.5em) {
+		.elm-content-container {
+		    padding: .65rem .65rem 4em;
+		}
 		.evaluation-kb li.mt-sortable-listing{
 	        padding: 10px 20px;
 	    }
 	    .evaluation-kb li.mt-sortable-listing:after{
 	        display: block;
 	    }
+	    dd.mt-listing-detailed-image {
+			position: absolute;
+			top: 35px;
+			margin: 0;
+		}
 	    dt.mt-listing-detailed-title{
 	    	margin-left: 3.5em;
 	        font-size: 12.6px;
 	    }
-	    .mt-listing-detailed-overview{
+	    dd.mt-listing-detailed-overview{
 	        display: inline-block;
+	        width: 40%;
+	        margin-right: 10%;
 	    }
 	    dd.mt-listing-detailed-subpages{
 	        display: inline-block;
