@@ -478,12 +478,11 @@ body.columbia-breadcrumb-home-evaluation {
 }
 [class*=columbia-breadcrumb-home-evaluation] span.mt-sortable-listing-image img {
   box-shadow: none;
-  max-height: 48px;
+  max-height: 33px;
 }
 [class*=columbia-breadcrumb-home-evaluation] dd.mt-listing-detailed-image {
   position: absolute;
-  top: 25px;
-  height: 38px;
+  top: 35px;
   margin: 0;
 }
 [class*=columbia-breadcrumb-home-evaluation] dt.mt-listing-detailed-title {
@@ -562,34 +561,34 @@ body.columbia-breadcrumb-home-evaluation {
   border-left-color: #F44336;
 }
 [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-2 {
-  border-left-color: #E91E63;
-}
-[class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-3 {
-  border-left-color: #9C27B0;
-}
-[class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-4 {
-  border-left-color: #673AB7;
-}
-[class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-5 {
   border-left-color: #3F51B5;
 }
-[class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-6 {
-  border-left-color: #2196F3;
+[class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-3 {
+  border-left-color: #8BC34A;
 }
-[class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-7 {
+[class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-4 {
   border-left-color: #03A9F4;
 }
+[class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-5 {
+  border-left-color: #F44336;
+}
+[class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-6 {
+  border-left-color: #673AB7;
+}
+[class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-7 {
+  border-left-color: #607D8B;
+}
 [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-8 {
-  border-left-color: #00BCD4;
+  border-left-color: #3F51B5;
 }
 [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-9 {
-  border-left-color: #009688;
+  border-left-color: #FF5722;
 }
 [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-10 {
-  border-left-color: #4CAF50;
+  border-left-color: #607D8B;
 }
 [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-11 {
-  border-left-color: #8BC34A;
+  border-left-color: #FFC107;
 }
 [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-12 {
   border-left-color: #CDDC39;
