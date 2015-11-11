@@ -1,5 +1,5 @@
 /* Dynamically add color to the cards on Learn About OutSystems Home Page  */
-@array: color #F44336, color #3F51B5, color #8BC34A, color #03A9F4, color #F44336, 
+@array: color #F44336, color #3F51B5, color #8BC34A, color #00BCD4, color #F44336, 
 		color #673AB7, color #607D8B, color #3F51B5, color #FF5722, color #607D8B, color #FFC107, 
 		color #CDDC39, color #FFEB3B, color #FFC107;
 
@@ -996,9 +996,7 @@ body.columbia-breadcrumb-home-evaluation {
 			article#elm-main-content {
 			    padding-left: 0.65rem;
 			}
-			.sidebar-cta-box.contact-us{
-				padding: 15px;
-			}
+			
 		}
 		@media all and (min-width:37.5em) {
 			.top-nav{
@@ -1016,9 +1014,47 @@ body.columbia-breadcrumb-home-evaluation {
 			article#elm-main-content {
 				padding-left: 290px;
 			}
-			.sidebar-cta-box.contact-us{
-				padding: 15px 50px;
-			}
+		}
+	}
+	@media all and (min-width:18.75em){
+		.evaluation-kb li.mt-sortable-listing{
+	        padding: 0px;
+	    }
+	    dt.mt-listing-detailed-title{
+	    	margin-left: 4em;
+	        font-size: 10px;
+	    }
+	    .mt-listing-detailed-subpages{
+	        display: none;
+	    }
+	    dd.mt-listing-detailed-overview{
+	        display: block;
+	        width: 100%;
+	    }
+	    .sidebar-cta-box.contact-us{
+			padding: 15px;
+		}
+	}
+	@media all and (min-width:37.5em) {
+		.evaluation-kb li.mt-sortable-listing{
+	        padding: 10px 20px;
+	    }
+	    .evaluation-kb li.mt-sortable-listing:after{
+	        display: block;
+	    }
+	    dt.mt-listing-detailed-title{
+	    	margin-left: 3.5em;
+	        font-size: 12.6px;
+	    }
+	    .mt-listing-detailed-overview{
+	        display: inline-block;
+	    }
+	    dd.mt-listing-detailed-subpages{
+	        display: inline-block;
+	        width: 50%;
+	    }
+	    .sidebar-cta-box.contact-us{
+			padding: 15px 50px;
 		}
 	}
 }

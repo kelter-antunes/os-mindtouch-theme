@@ -567,7 +567,7 @@ body.columbia-breadcrumb-home-evaluation {
   border-left-color: #8BC34A;
 }
 [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-4 {
-  border-left-color: #03A9F4;
+  border-left-color: #00BCD4;
 }
 [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-5 {
   border-left-color: #F44336;
@@ -983,9 +983,6 @@ body.columbia-breadcrumb-home-evaluation {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     padding-left: 0.65rem;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidebar-cta-box.contact-us {
-    padding: 15px;
-  }
 }
 @media all and (min-width: 37.5em) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
@@ -1002,7 +999,45 @@ body.columbia-breadcrumb-home-evaluation {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     padding-left: 290px;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidebar-cta-box.contact-us {
+}
+@media all and (min-width: 18.75em) {
+  [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing {
+    padding: 0px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] dt.mt-listing-detailed-title {
+    margin-left: 4em;
+    font-size: 10px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .mt-listing-detailed-subpages {
+    display: none;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] dd.mt-listing-detailed-overview {
+    display: block;
+    width: 100%;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us {
+    padding: 15px;
+  }
+}
+@media all and (min-width: 37.5em) {
+  [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing {
+    padding: 10px 20px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing:after {
+    display: block;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] dt.mt-listing-detailed-title {
+    margin-left: 3.5em;
+    font-size: 12.6px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .mt-listing-detailed-overview {
+    display: inline-block;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] dd.mt-listing-detailed-subpages {
+    display: inline-block;
+    width: 50%;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us {
     padding: 15px 50px;
   }
 }
