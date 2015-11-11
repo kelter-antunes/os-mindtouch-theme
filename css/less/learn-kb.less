@@ -601,8 +601,8 @@ body.columbia-breadcrumb-home-evaluation {
 		}
 		.evaluation-hero {
 			display: inline-block;
-			width: 42%;
-			margin-right: 2%;
+			width: 43%;
+			margin-right: 7%;
 
 			h1 {
 				font-size: 36px;
@@ -1023,6 +1023,23 @@ body.columbia-breadcrumb-home-evaluation {
 		}
 	}
 	@media all and (min-width:18.75em){
+		.hero-wrapper{
+			.evaluation-hero {
+				width: 100%;
+				margin-right: 0;
+				
+				h1{
+					margin-bottom: 1rem;
+				}
+			}
+			.search-wrapper {
+				width: 100%;
+
+				.form-field {
+					top: 10px;
+				}
+			}
+		}
 		.elm-content-container {
 		    padding: .65rem .65rem 2em;
 		}
@@ -1048,8 +1065,23 @@ body.columbia-breadcrumb-home-evaluation {
 		}
 	}
 	@media all and (min-width:37.5em) {
-		.elm-content-container {
-		    padding: .65rem .65rem 4em;
+		.hero-wrapper{
+			.evaluation-hero {
+				display: inline-block;
+				width: 43%;
+				margin-right: 7%;
+			h1{
+				margin-bottom: 1rem;
+				}
+			}
+			.search-wrapper {
+				display: inline-block;
+				width: 50%;
+
+				.form-field {
+					top: -45px;
+				}
+			}
 		}
 		.evaluation-kb li.mt-sortable-listing{
 	        padding: 10px 20px;

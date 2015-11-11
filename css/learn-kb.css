@@ -619,8 +619,8 @@ body.columbia-breadcrumb-home-evaluation {
 }
 [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero {
   display: inline-block;
-  width: 42%;
-  margin-right: 2%;
+  width: 43%;
+  margin-right: 7%;
 }
 [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero h1 {
   font-size: 36px;
@@ -1009,6 +1009,19 @@ body.columbia-breadcrumb-home-evaluation {
   }
 }
 @media all and (min-width: 18.75em) {
+  [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero {
+    width: 100%;
+    margin-right: 0;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero h1 {
+    margin-bottom: 1rem;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .search-wrapper {
+    width: 100%;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .search-wrapper .form-field {
+    top: 10px;
+  }
   [class*=columbia-breadcrumb-home-evaluation] .elm-content-container {
     padding: .65rem .65rem 2em;
   }
@@ -1034,8 +1047,20 @@ body.columbia-breadcrumb-home-evaluation {
   }
 }
 @media all and (min-width: 37.5em) {
-  [class*=columbia-breadcrumb-home-evaluation] .elm-content-container {
-    padding: .65rem .65rem 4em;
+  [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero {
+    display: inline-block;
+    width: 43%;
+    margin-right: 7%;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero h1 {
+    margin-bottom: 1rem;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .search-wrapper {
+    display: inline-block;
+    width: 50%;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .search-wrapper .form-field {
+    top: -45px;
   }
   [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing {
     padding: 10px 20px;
