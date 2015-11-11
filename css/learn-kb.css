@@ -465,6 +465,8 @@ body.columbia-breadcrumb-home-evaluation {
   width: 40%;
   margin-right: 10%;
   vertical-align: top;
+  line-height: 1.5em;
+  color: #333;
 }
 [class*=columbia-breadcrumb-home-evaluation] dd.mt-listing-detailed-subpages {
   display: inline-block;
@@ -485,13 +487,13 @@ body.columbia-breadcrumb-home-evaluation {
   margin: 0;
 }
 [class*=columbia-breadcrumb-home-evaluation] dt.mt-listing-detailed-title {
-  margin-left: 4.5em;
+  margin-left: 3.5em;
 }
 [class*=columbia-breadcrumb-home-evaluation] dt.mt-listing-detailed-title a h4 {
   margin-top: 0;
   border-left: none;
   padding-left: 0;
-  font-weight: 800;
+  font-weight: 500;
 }
 [class*=columbia-breadcrumb-home-evaluation] .more-related ul.related-list {
   list-style: none;
@@ -546,11 +548,15 @@ body.columbia-breadcrumb-home-evaluation {
 [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing {
   position: relative;
   flex: 1 1 50em;
+  padding: 10px 20px;
   background-color: white;
   border: 1px solid #EEE;
   border-radius: 3px;
   border-left-width: 3px;
   border-left-style: solid;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 1px 1px 5px #DDD;
 }
 [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-1 {
   border-left-color: #F44336;
@@ -601,7 +607,7 @@ body.columbia-breadcrumb-home-evaluation {
   position: absolute;
   width: 19px;
   height: 37px;
-  right: 15px;
+  right: 30px;
   top: 50%;
   margin-top: -18.5px;
 }
