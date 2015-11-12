@@ -1069,6 +1069,12 @@ body.columbia-breadcrumb-home-evaluation {
   [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us {
     padding: 15px;
   }
+  [class*=columbia-breadcrumb-home-evaluation] .featherlight .featherlight-content {
+    width: 290px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .featherlight .featherlight-inner {
+    width: 99.5%;
+  }
 }
 @media all and (min-width: 37.5em) {
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero {
@@ -1112,5 +1118,11 @@ body.columbia-breadcrumb-home-evaluation {
   }
   [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us {
     padding: 15px 50px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .featherlight .featherlight-content {
+    width: 422px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .featherlight .featherlight-inner {
+    width: 410px;
   }
 }
