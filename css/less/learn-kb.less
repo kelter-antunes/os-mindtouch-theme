@@ -445,10 +445,6 @@ body.columbia-breadcrumb-home-evaluation {
 	OrderedSubpages 
 	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/ViewsCategory/OrderedSubpages
 	*/
-	dl.mt-listing-detailed.mt-edit-section {
-		margin-bottom: 0;
-		padding: 25px 25px;
-	}
 	.mt-listing-detailed-overview {
 	    display: inline-block;
 	    width: 40%;
@@ -1069,12 +1065,19 @@ body.columbia-breadcrumb-home-evaluation {
 		}
 		.evaluation-kb li.mt-sortable-listing{
 	        padding: 0px;
+
+	        a.clickable-card:after{
+	        	right: 15px;
+	        }
+	        .mt-listing-detailed {
+			    padding: 1em 1.25em;
+			}
 	    }
 	    dd.mt-listing-detailed-image {
-			top: 10px;
+			top: 25px;
 		}
 	    dt.mt-listing-detailed-title {
-		    margin: 20px 0 0 0;
+		    margin: 0 0 1em 4.5em;
 		    font-size: 10px;
 		}
 	    dd.mt-listing-detailed-subpages{
@@ -1091,7 +1094,7 @@ body.columbia-breadcrumb-home-evaluation {
 		    width: 290px;
 		}
 		.featherlight .featherlight-inner {
-		    width: 99.5%;
+		    width: 97% !important;
 		}
 	}
 	@media all and (min-width:37.5em) {
@@ -1115,9 +1118,10 @@ body.columbia-breadcrumb-home-evaluation {
 		}
 		.evaluation-kb li.mt-sortable-listing{
 	        padding: 10px 20px;
-	    }
-	    .evaluation-kb li.mt-sortable-listing:after{
-	        display: block;
+
+	        a.clickable-card:after{
+	        	right: 30px;
+	        }
 	    }
 	    dd.mt-listing-detailed-image {
 			position: absolute;
