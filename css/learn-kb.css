@@ -273,8 +273,7 @@ body.columbia-breadcrumb-home-evaluation {
   margin-bottom: 40px;
   margin-top: 40px;
 }
-[class*=columbia-breadcrumb-home-evaluation] li.mt-rating-yes.mt-feedback-rating-item,
-[class*=columbia-breadcrumb-home-evaluation] li.mt-rating-no.mt-feedback-rating-item {
+[class*=columbia-breadcrumb-home-evaluation] .mt-feedback-rating-controls .ui-button-icon {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
 }
