@@ -1,0 +1,2390 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"nw",
+				"newHeight"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"page",
+				"pageType"
+			],
+			[
+				"ap",
+				"append	.append()"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"data",
+				"data-tooltip"
+			],
+			[
+				"rem",
+				"removeAttr	.removeAttr()"
+			],
+			[
+				"fade",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"fo",
+				"focus	.focus()"
+			],
+			[
+				"prev",
+				"preventDefault"
+			],
+			[
+				"bo",
+				"body"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"re",
+				"ready	document.ready - $(function(){})"
+			],
+			[
+				"pa",
+				"pag"
+			],
+			[
+				"to",
+				"toggle	.toggle() (show/hide)"
+			],
+			[
+				"max",
+				"maxL"
+			],
+			[
+				"tex",
+				"text	.text()"
+			],
+			[
+				"at",
+				"attr	.attr() - single"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"ex",
+				"expanded"
+			],
+			[
+				"par",
+				"parent	.parent()"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"glob",
+				"globalLogos"
+			],
+			[
+				"nu",
+				"numberOfMissingLogos"
+			],
+			[
+				"num",
+				"numberOfCurrentLogos"
+			],
+			[
+				"logo",
+				"logosForCurrentLocale"
+			],
+			[
+				"currt",
+				"currentLocation"
+			],
+			[
+				"cu",
+				"currentLocation"
+			],
+			[
+				"log",
+				"logosForCurrentLocale"
+			],
+			[
+				"mous",
+				"mousedown	.mousedown()"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"rea",
+				"ready	document.ready - $(function(){})"
+			],
+			[
+				"lo",
+				"load	.load()"
+			],
+			[
+				"ola",
+				"olarkOSDetails"
+			],
+			[
+				"cs",
+				"css	.css() - single"
+			],
+			[
+				"sty",
+				"style	Attr"
+			],
+			[
+				"sele",
+				"selects"
+			],
+			[
+				"clic",
+				"clicked"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"fe",
+				"few-weeks"
+			],
+			[
+				"ev",
+				"everybody"
+			],
+			[
+				"up",
+				"up-to-15-screens"
+			],
+			[
+				"screen",
+				"up-to-5-screens"
+			],
+			[
+				"scre",
+				"screen"
+			],
+			[
+				"and",
+				"android"
+			],
+			[
+				"io",
+				"ios"
+			],
+			[
+				"Incom",
+				"incomplete"
+			],
+			[
+				"sec",
+				"sectionsWithoutSelection"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"as",
+				"asap"
+			],
+			[
+				"hou",
+				"in-house"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"resul",
+				"resultDiv"
+			],
+			[
+				"va",
+				"validatePicks"
+			],
+			[
+				"cli",
+				"clicked"
+			],
+			[
+				"togg",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"don",
+				"done70"
+			],
+			[
+				"done",
+				"done50"
+			],
+			[
+				"pec",
+				"percent70"
+			],
+			[
+				"per",
+				"percent50"
+			],
+			[
+				"M",
+				"Math"
+			],
+			[
+				"ca",
+				"catch"
+			],
+			[
+				"pare",
+				"parentData"
+			],
+			[
+				"curr",
+				"currPage"
+			],
+			[
+				"path",
+				"pathName"
+			],
+			[
+				"r",
+				"ready	$(document).ready"
+			],
+			[
+				"ss",
+				"ssExceptionError"
+			],
+			[
+				"is",
+				"isOfficeContactUS"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fin",
+				"finalUrl"
+			],
+			[
+				"c",
+				"click	.click()"
+			],
+			[
+				"order",
+				"order_link"
+			],
+			[
+				"cat",
+				"cat_link"
+			],
+			[
+				"und",
+				"undefined"
+			],
+			[
+				"q",
+				"queryParams"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass()"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"te",
+				"text	.text()"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"read",
+				"ready	$(document).ready"
+			],
+			[
+				"mou",
+				"mouseover	mouseover"
+			],
+			[
+				"slid",
+				"slideToggle	.slideToggle()"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"ti",
+				"title	<title>"
+			],
+			[
+				"car",
+				"card-desc"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass"
+			],
+			[
+				"mngt",
+				"mngt-bio-link"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"si",
+				"siblings	.siblings()"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"pos",
+				"pos-r	position: relative;"
+			],
+			[
+				"fl",
+				"fl-r	float: right;"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"cat_",
+				"cat_id"
+			],
+			[
+				"d",
+				"d-n	display: none;"
+			],
+			[
+				"po",
+				"pos-r	position: relative;"
+			],
+			[
+				"track",
+				"track-name-right-arrow"
+			],
+			[
+				"wi",
+				"width	.width"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"ma",
+				"maxRow"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"loa",
+				"load	.load"
+			],
+			[
+				"ad",
+				"addClass	addClass"
+			],
+			[
+				"solution-a",
+				"solutions-all-index"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"em",
+				"emailsent"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"gam",
+				"gameHost"
+			],
+			[
+				"game",
+				"gameKey"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"lin",
+				"linkedin"
+			],
+			[
+				"da",
+				"data-type"
+			],
+			[
+				"a",
+				"attr	.attr() - single"
+			],
+			[
+				"ea",
+				"each	.each()"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"fu",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/msa/NodeApps/nodejs.git/package.json",
+			"settings":
+			{
+				"buffer_size": 300,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/msa/NodeApps/nodejs.git/index.js",
+			"settings":
+			{
+				"buffer_size": 626,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/msa/NodeApps/nodejs.git/index.html",
+			"settings":
+			{
+				"buffer_size": 4315,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/msa/NodeApps/nodejs.git/js/chat.js",
+			"settings":
+			{
+				"buffer_size": 7649,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/msa/NodeApps/nodejs.git/io_index.html",
+			"settings":
+			{
+				"buffer_size": 1187,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "h",
+		"selected_items":
+		[
+			[
+				"h",
+				"HTMLPrettify"
+			],
+			[
+				"syn js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"css",
+				"Format CSS: Expanded"
+			],
+			[
+				"syn h",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn php",
+				"Set Syntax: PHP"
+			],
+			[
+				"cs",
+				"Format CSS: Expanded"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inta",
+				"Package Control: Install Package"
+			],
+			[
+				"syn le",
+				"Set Syntax: LESS"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"syn css",
+				"Set Syntax: CSS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"syn cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"css ",
+				"Format CSS: Expanded"
+			],
+			[
+				"syn json",
+				"Set Syntax: JSON"
+			],
+			[
+				"syn jsn",
+				"Set Syntax: JSON"
+			],
+			[
+				"min",
+				"Minify Javascript"
+			],
+			[
+				"xml",
+				"Indent XML"
+			],
+			[
+				"xm",
+				"Set Syntax: XML"
+			],
+			[
+				"H",
+				"HTMLPrettify"
+			],
+			[
+				"m",
+				"Minify Javascript to file"
+			],
+			[
+				"css e",
+				"Format CSS: Expanded"
+			],
+			[
+				"json",
+				"Indent JSON"
+			],
+			[
+				"xml ",
+				"xml2json pretty"
+			],
+			[
+				"le",
+				"CSS Less-ish: Compile"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sy ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn mus",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"sy h",
+				"Set Syntax: HTML"
+			],
+			[
+				"sy htm",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"sy json",
+				"Set Syntax: JSON"
+			],
+			[
+				"mn",
+				"Minify Javascript to file"
+			],
+			[
+				"hand",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"mus",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"sassb",
+				"SassBeautify"
+			],
+			[
+				"scss",
+				"SassBeautify: Convert from SCSS to current type"
+			],
+			[
+				"syn scs",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sa",
+				"SassBeautify"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"ins ta ",
+				"Package Control: Install Package"
+			],
+			[
+				"syn sa",
+				"Set Syntax: Sass"
+			],
+			[
+				"syn sc",
+				"Set Syntax: SCSS"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"SN HT",
+				"Set Syntax: HTML"
+			],
+			[
+				"synt h",
+				"Set Syntax: HTML"
+			],
+			[
+				"format",
+				"Format CSS: Expanded (Break Selectors)"
+			],
+			[
+				"s css",
+				"Set Syntax: CSS"
+			],
+			[
+				"s js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn tex",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"synt js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synt htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"sni ht",
+				"Snippet: HTML - HTML foundation"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"jsn",
+				"Set Syntax: JSON"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"SYN JS",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"mi",
+				"Minify Javascript to file"
+			],
+			[
+				"h\n",
+				"HTMLPrettify"
+			],
+			[
+				"REI",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"he",
+				"HTMLPrettify"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"bui",
+				"Build: Build"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"jsl",
+				"JSLint"
+			],
+			[
+				"syn n",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"MIN",
+				"Minify Javascript to file"
+			],
+			[
+				"mini",
+				"Minify Javascript to file"
+			],
+			[
+				"lines",
+				"Sort Lines"
+			],
+			[
+				"em",
+				"Emmet: Merge Lines"
+			],
+			[
+				"sy js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"HE",
+				"HTMLPrettify"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"syn sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"syn c#",
+				"Set Syntax: C#"
+			],
+			[
+				"syn c",
+				"Set Syntax: C#"
+			],
+			[
+				"id",
+				"Indent XML"
+			],
+			[
+				"syn xm",
+				"Set Syntax: XML"
+			],
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal ",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"tid",
+				"Tidy CSS (Highest Compression)"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"syn j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"be",
+				"Javascript Beautify"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"synt json",
+				"Set Syntax: JSON"
+			],
+			[
+				"dic",
+				"Dictionaries: Set Language"
+			],
+			[
+				"SYNT JS",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"htmlpr",
+				"HTMLPrettify"
+			],
+			[
+				"html pr",
+				"HTMLPrettify"
+			],
+			[
+				"ti",
+				"Tidy HTML"
+			],
+			[
+				"synt jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"synt css",
+				"Set Syntax: CSS"
+			],
+			[
+				"t",
+				"Tidy CSS (Low Compression)"
+			],
+			[
+				"bea",
+				"Javascript Beautify"
+			],
+			[
+				"beu",
+				"Javascript Beautify"
+			],
+			[
+				"bei",
+				"Beautify::Beautify File"
+			],
+			[
+				"synt ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"beau",
+				"Javascript Beautify"
+			],
+			[
+				"git p",
+				"Github: Plugin Settings"
+			],
+			[
+				"githu",
+				"Github: Pull Requests"
+			],
+			[
+				"gi",
+				"Github: Repository"
+			],
+			[
+				"synt ht",
+				"Set Syntax: HTML5"
+			],
+			[
+				"syn ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synt t",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"synt",
+				"Set Syntax: Textile"
+			],
+			[
+				"synt ",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"syn",
+				"Set Syntax: Scala"
+			],
+			[
+				"syn ",
+				"Set Syntax: C#"
+			],
+			[
+				"syn p",
+				"Set Syntax: PHP"
+			],
+			[
+				"reis",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sy php",
+				"Set Syntax: PHP"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"ista",
+				"Package Control: Install Package"
+			],
+			[
+				"pref",
+				"Preferences: Prefixr Key Bindings – Default"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/msa/NodeApps"
+	],
+	"file_history":
+	[
+		"/Users/msa/Downloads/CreativeGooeyEffects/index.html",
+		"/Users/msa/NodeApps/nodejs.git/index.html",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/css/bundle/os-mt-core.min.css",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/gruntfile.js",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/css/mindtouch.custom.all.css",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/css/mindtouch.custom.all._backup_.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/os-font.css",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/css/less/learn-kb.less",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/css/less/popups.less",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/css/learn-kb.css",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/css/normalize.css",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/css/less/common.less",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/css/bundle/os-mt-kbs.min.css",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/css/less/evaluation-kb.less",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/css/evaluation-kb.css",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/package.json",
+		"/Users/msa/Library/Application Support/Sublime Text 3/Packages/Less2Css/less2css.sublime-settings",
+		"/Users/msa/Library/Application Support/Sublime Text 3/Packages/User/less2css.sublime-settings",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/README.md",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/css/src/less/evaluation-kb.less",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/css/src/less/evaluation-kb.css",
+		"/Users/msa/GitHub Repos/os-mindtouch-theme/css/src/evaluation-kb.less",
+		"/Users/msa/GitHub Repos/os-corporate-templates/company/careers/careers-single.hgn",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/common.js",
+		"/Users/msa/Downloads/Swiftype.Search.trace.txt",
+		"/Users/msa/Downloads/Swiftype.Search.trace (2).txt",
+		"/Users/msa/GitHub Repos/web-apps-manifests/manifest-weather.json",
+		"/Users/msa/GitHub Repos/os-corporate-templates/company/careers/careers-home.mustache",
+		"/Users/msa/Downloads/fullPage.js-master/examples/methods.html",
+		"/Users/msa/Downloads/fullPage.js-master/examples/callbacks.html",
+		"/Users/msa/Downloads/fullPage.js-master/examples/backgroundVideo.html",
+		"/Users/msa/Downloads/fullPage.js-master/examples/simple.html",
+		"/Users/msa/Downloads/fullPage.js-master/examples/looping.html",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/home.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/licensingfo.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/forge.css",
+		"/Users/msa/Downloads/weather-icons-master/css/weather-icons-wind.css",
+		"/Users/msa/Downloads/weather-icons-master/css/weather-icons.css",
+		"/Users/msa/Downloads/justgage-1.1.0/raphael-2.1.4.min.js",
+		"/Users/msa/Downloads/justgage-1.1.0/justgage-1.1.0.min.js",
+		"/Users/msa/GitHub Repos/os-corporate-templates/company/events/events-template.hgn",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/test.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/gruntfile.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/cex-dwa-WistiaPlugin.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/DWA-CEX-WistiaPlugin.min.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/cex-dwa-WistiaPlugin.min.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/os-swiftype.js",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/community-base-theme.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/partner-center.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/os-core.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/community.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/node_modules/grunt-contrib-qunit/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/node_modules/request/node_modules/tough-cookie/test/jar_serialization_test.js",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/search.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/bootstrap.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/jquery.stickyscroll.min.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/inside-mkto-resize.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/inside-mkto-resize.min.js",
+		"/Users/msa/GitHub Repos/os-portal-theme/gruntfile.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/os-swiftype-community.js",
+		"/Volumes/UNTITLED/test.txt",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/common.min.js",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/learn.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/bundle/os-portal.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/bundle/os-portal-apps.css",
+		"/Users/msa/Downloads/untitled.txt",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/bundle/os-portal-ss.css",
+		"/Users/msa/Downloads/untitled.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/jquery.swiftype.search.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/jquery.swiftype.search.min.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/website-header.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/website-header.min.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/ga-pixel-ratio.html",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/website.min.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/website.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/os-font.min.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/corporate-site-apps-mkto-forms.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/js/src/partner-center.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/corporate-site.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/forums.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/js/bundle/os-portal.js",
+		"/Users/msa/GitHub Repos/os-portal-theme/js/src/portal-common.js",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/widgets.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/menu-mobile.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/email.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/email-azure.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/ideas.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/js/src/ideas.js",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/profile.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/ss-forge.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/src/azure.css",
+		"/Users/msa/GitHub Repos/os-portal-theme/js/src/bootstrap.js",
+		"/Users/msa/GitHub Repos/os-portal-theme/README.md",
+		"/Users/msa/GitHub Repos/os-portal-theme/css/bootstrap.css",
+		"/Users/msa/Downloads/typekit-cache.min.js",
+		"/Users/msa/GitHub Repos/kelter-antunes.github.io/gruntfile.js",
+		"/Users/msa/GitHub Repos/os-portal-theme/package.json",
+		"/Users/msa/GitHub Repos/os-corporate-site/.gitignore",
+		"/Users/msa/Movies/popcorn/Popcorn-Time/469bfa31caa9cb58b66091a041fa13a296cb84f5/Suits.S05E02.REPACK.720p.HDTV.x264-KILLERS[brassetv]/suits.s05e02.repack.720p.hdtv.x264-killers.nfo",
+		"/Users/msa/GitHub Repos/untitled.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/package.json",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/page-specific/gruntfile.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/website-responsive.min.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/website-responsive.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/website-footer.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/website-footer.min.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/website-footer-responsive.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/website-footer-responsive.min.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/bundle/site.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/bundle/extra.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/carousel.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/jquery.easing.1.3.min.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/jquery.animate-enhanced.min.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/page-specific/home-page/website-header-cleaned.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/page-specific/home-page/os-font-cleaned.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/page-specific/home-page/website-cleaned.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/page-specific/home-page/website-footer-cleaned.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/src/page-specific/home-page/bootstrap-base-cleaned.css",
+		"/Users/msa/Documents/outsystems.com.used.json",
+		"/Users/msa/Documents/website-cleaned.css",
+		"/Users/msa/Documents/website-cleaned-2.css",
+		"/Users/msa/Documents/website-cleaned-2.min.css",
+		"/Users/msa/Documents/website-cleaned-2-nice.css",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/os-olark.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/bundle/core.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/css/v2/gruntfile.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/package.json",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/src/jquery-1.10.2.js",
+		"/Users/msa/GitHub Repos/os-corporate-site/js/carousel.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/msa/GitHub Repos/outsystems-blog-theme",
+			"/Users/msa/GitHub Repos/os-portal-theme/css/src",
+			"/Users/msa/GitHub Repos/os-portal-theme",
+			"/Users/msa/Dropbox/GitHub Repos/",
+			"/Users/msa/Dropbox/GitHub Repos/outsystems-blog-theme",
+			"/Users/msa/Dropbox/GitHub Repos/os-corporate-site/",
+			"/Users/msa/Dropbox/GitHub Repos/",
+			"/Users/msa/Dropbox/GitHub Repos/os-corporate-site/css",
+			"<open folders>,/Users/msa/Dropbox/GitHub Repos/os-corporate-site/html",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"@default-font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;",
+			"\"\"",
+			".sidemenu-wrapper",
+			"li.mt",
+			"footer",
+			"li.",
+			".elm-content-footer",
+			".second-level",
+			"a.h",
+			"a.",
+			"featherlight-close",
+			"a.header_button",
+			".heading",
+			"sidebar",
+			".evaluation-hero",
+			"evaluationknowledgebase",
+			".sidebar-cta-box",
+			"btn",
+			"}\n",
+			"toc",
+			".sidemenu-wrapper",
+			".second-level",
+			"ul.sidemenu",
+			"li.active",
+			".elm-content-container",
+			".elm-content-container img",
+			"osicon-link",
+			"ol.elm-meta-data.elm-meta-top",
+			"h1#title",
+			".sidemenu-wrapper ul.sidemenu",
+			"input#kb-search",
+			".evaluation-kb li.mt-sortable-listing",
+			".elm-content-container",
+			"dd.mt-listing-detailed-image",
+			".elm-content-container img",
+			".sidemenu-wrapper",
+			"evaluation-kb",
+			"elm-content-container",
+			".sidemenu-wrapper",
+			"article#",
+			".elm-nav-container",
+			".sidemenu ",
+			".elm-content-footer ",
+			".elm-content-container",
+			"mt-show-more-listing",
+			"mt-listing-detailed-overview",
+			"mt-listing-detailed-image",
+			"Show all",
+			"mt-icon-",
+			"mt-icon-expand-collapse",
+			"content",
+			"subject",
+			"butServiceCentercreatesfoldersonC",
+			"butServiceCentercreatesfoldersonC:",
+			"\\butServiceCentercreatesfoldersonC:",
+			"\"ChangedPlatformServer7.0locationtoD: \\butServiceCentercreatesfoldersonC: \\\"",
+			"on C:",
+			"onC:",
+			"C:",
+			"u00a0",
+			"{1,3}",
+			"I have",
+			"/pt/",
+			"/premi",
+			"/pt/",
+			"\"Portugal\"",
+			"portugal",
+			"autoScrolling",
+			"autosc",
+			".results-snippet-desc",
+			"ipp",
+			".home-espace .web-expand",
+			"weathericons-regular-webfont.woff2",
+			".forge-espace .Menu_DropDownButton",
+			"steps-seq",
+			"post_intro",
+			"htmlEscape",
+			".searchview-close",
+			".mobile-search",
+			"media",
+			".forge-espace .CardTextWidth",
+			".sidebar-s",
+			".small-search",
+			".small-search {",
+			"search",
+			"console.lo",
+			"mkto_frame",
+			"sticky",
+			"stickyScroll",
+			"call(",
+			"call",
+			"evald",
+			"handleFunctionParam",
+			"Education and Maritime",
+			"description",
+			"description:",
+			"description\":",
+			"type\": ",
+			"type\": [",
+			"type\":",
+			"\"info\"",
+			"/cms_backoffice",
+			"solution-all",
+			"page-company",
+			"70px",
+			"height: 70px",
+			"height: 70px;",
+			"my_addlightboxrel",
+			"the_content",
+			"courseCard",
+			"agile-methodology",
+			".forge-espace a:link",
+			".forge-espace a",
+			"body",
+			".footer-landscape",
+			"osicon-tick",
+			".ButtonGroup_button.Button.active",
+			".home-espace .box ",
+			"har",
+			".LoaderWrapper",
+			"search-choice-close",
+			"select2-search-choice-close",
+			"forge-espace a",
+			".finalBackground",
+			".finalBackground, .initialBackground, .middleBackground, .videos, body",
+			"The Top Criteria for Selecting",
+			"go1.ou",
+			"index"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			"learnaboutoutsystems",
+			"kb-search",
+			"//console.lo",
+			"www.outsystems.com/cms_backoffice",
+			".forge-espace",
+			".forums-espace",
+			".home-espace",
+			".learn-espace",
+			".community-espace",
+			".partnerarea-espace",
+			"body.community-espace",
+			"body.partnerarea-espace",
+			"body.learn-espace",
+			"body.home-espace",
+			"\"\"",
+			"important",
+			"",
+			"201506291815",
+			"\"",
+			"\"\"",
+			"\"",
+			"Details",
+			"<div class=\"container m-item\" style=\"pointer-events: all;\"",
+			".doc-label",
+			".view",
+			".view.view-icons",
+			"outsystems-blog-theme",
+			"[contenteditable]",
+			"",
+			"/case-studies/all-case-studies/",
+			"/CMS_BackOffice",
+			"/solutions",
+			"",
+			"/customers/",
+			"/company/about/",
+			"",
+			"'",
+			"\"aaaaa\"",
+			"",
+			"'",
+			"201510021536",
+			"201510021535",
+			"https://outsystems.com/",
+			"",
+			"201406081625",
+			"/CMS_BackOffice/ResourceLink.aspx?ResourceName=homepage-top-header-bg&v=201406081625",
+			"",
+			"');",
+			"url('",
+			"/CMS_BackOffice/ResourceLink.aspx?ResourceName=",
+			"",
+			"submenu-hover-sections",
+			"\n",
+			"",
+			"100-1000",
+			"</span> </span> </a>",
+			"<span class=\"legend-icon\"><span>",
+			"card-pick",
+			"stuff",
+			"card-pick",
+			"",
+			"eWT",
+			"'/CMS_BackOffice/ResourceLink.aspx?ResourceName=welcomespot&v=20150107112247'",
+			"http://www.outsystems.com/apps/",
+			"</span></span></a>",
+			"<a href=\"#\"><span class=\"todo-content\"",
+			"",
+			"olarkOSDetails",
+			"{FOLDER}",
+			"{FOLDER_CONTENT}",
+			"{GENERIC_CONTENT}",
+			"ssStandardError",
+			"</div>",
+			"</>",
+			"text-block bot30",
+			"menu-drop-down-button",
+			"menu-sub-menu-item-active",
+			"menu-sub-menu-item",
+			"menu-top-menu-active",
+			"menu-top-menu",
+			"",
+			"toggleDropdowMenu",
+			"$(divToPopup)",
+			"'",
+			".st-search-input-big\"",
+			"201406081625",
+			"span3",
+			"201401081312",
+			"span>",
+			"<a class=\"app-card\" href=\"#\">",
+			"class=\"photo active\">",
+			"img/",
+			"\"\"",
+			"/",
+			"com/",
+			".ui",
+			"button-isotype",
+			"isotype-resource-cards",
+			"</div><div class=\"span6\"><div class=\"sponsor-detail-box\">",
+			"logo-holder",
+			"/m/",
+			"/",
+			"20140311141000",
+			"45deg",
+			"",
+			"solutions-single-box",
+			"outsystems-blog-theme",
+			"outsystems-theme",
+			"kwm-",
+			"kwm",
+			"mkto_",
+			"mkto_meta_box_title",
+			"div",
+			"osflare",
+			"v=20140311141000",
+			"<div class=\"span1 pricing-feature-image ",
+			"<div class=\"span5 pricing-feature-text\">",
+			"<div class=\"span1 pricing-feature-image",
+			"",
+			"#!how-",
+			"arrow\">&nbsp;</"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/msa/NodeApps/nodejs.git/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								267,
+								267
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/msa/NodeApps/nodejs.git/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								355,
+								355
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/msa/NodeApps/nodejs.git/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1363,
+								1363
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 273.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/msa/NodeApps/nodejs.git/js/chat.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 7649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1754,
+								1765
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 624.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/msa/NodeApps/nodejs.git/io_index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1109,
+								1117
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 300.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "personal.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"common",
+				"os-corporate-site/js/src/common.js"
+			],
+			[
+				"career",
+				"os-corporate-templates/company/careers/careers-home.mustache"
+			],
+			[
+				"event",
+				"os-corporate-templates/company/events/events-template.hgn"
+			],
+			[
+				"forge",
+				"os-portal-theme/css/src/forge.css"
+			],
+			[
+				"os-sy",
+				"os-corporate-site/js/src/os-swiftype.js"
+			],
+			[
+				"js",
+				"os-portal-theme/node_modules/grunt-contrib-qunit/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/node_modules/request/node_modules/tough-cookie/test/jar_serialization_test.js"
+			],
+			[
+				"part",
+				"os-portal-theme/css/src/partner-center.css"
+			],
+			[
+				"sea",
+				"os-portal-theme/css/src/search.css"
+			],
+			[
+				"inside",
+				"os-corporate-site/js/src/inside-mkto-resize.js"
+			],
+			[
+				"comm",
+				"os-corporate-site/js/src/common.js"
+			],
+			[
+				"swift",
+				"os-corporate-site/js/src/os-swiftype-community.js"
+			],
+			[
+				"partner",
+				"os-portal-theme/css/src/partner-center.css"
+			],
+			[
+				"sin",
+				"os-corporate-templates/company/careers/careers-single.hgn"
+			],
+			[
+				"careers",
+				"os-corporate-templates/company/careers/careers-single.hgn"
+			],
+			[
+				"caree",
+				"os-corporate-templates/company/careers/careers-home.mustache"
+			],
+			[
+				"swif",
+				"os-corporate-site/js/src/os-swiftype.js"
+			],
+			[
+				"websi",
+				"os-corporate-site/css/v2/src/website.css"
+			],
+			[
+				"corporate-site-apps-mkto-forms.css",
+				"os-corporate-site/css/corporate-site-apps-mkto-forms.css"
+			],
+			[
+				"ignore",
+				"os-corporate-site/.gitignore"
+			],
+			[
+				"si",
+				"os-corporate-site/css/v2/bundle/site.css"
+			],
+			[
+				"carou",
+				"os-corporate-site/js/src/carousel.js"
+			],
+			[
+				"creers",
+				"os-corporate-templates/company/careers/careers-home.mustache"
+			],
+			[
+				"site",
+				"os-corporate-site/css/v2/bundle/site.css"
+			],
+			[
+				"os-ol",
+				"os-corporate-site/js/src/os-olark.js"
+			],
+			[
+				"partn",
+				"os-corporate-site/html/partners.html"
+			],
+			[
+				"corpo",
+				"os-corporate-site/css/corporate-site.css"
+			],
+			[
+				"os-common",
+				"os-corporate-site/js/common.js"
+			],
+			[
+				"hgn",
+				"os-corporate-templates/partners/partners.hgn"
+			],
+			[
+				"os-in",
+				"os-corporate-site/js/os-inspectlet.js"
+			],
+			[
+				"co",
+				"os-corporate-site/js/common.js"
+			],
+			[
+				"ho",
+				"os-corporate-templates/homepage.hgn"
+			],
+			[
+				"home",
+				"os-corporate-site/html/homepage.html"
+			],
+			[
+				"os-w",
+				"os-corporate-site/js/os-ws-popup.js"
+			],
+			[
+				"succinct",
+				"os-corporate-site/js/jQuery.succinct.js"
+			],
+			[
+				"como",
+				"os-corporate-site/js/common.js"
+			],
+			[
+				"h",
+				"os-corporate-templates/homepage.hgn"
+			],
+			[
+				"partners",
+				"GitHub Repos/os-corporate-site/html/partners.html"
+			],
+			[
+				"hom",
+				"GitHub Repos/os-corporate-templates/homepage.hgn"
+			],
+			[
+				"apps",
+				"GitHub Repos/os-corporate-site/html/apps.html"
+			],
+			[
+				".musta",
+				"GitHub Repos/os-corporate-templates/company/careers/careers-home.mustache"
+			],
+			[
+				"succin",
+				"GitHub Repos/os-corporate-site/js/jQuery.succinct.js"
+			],
+			[
+				"comon",
+				"GitHub Repos/os-corporate-site/js/common.js"
+			],
+			[
+				"cname",
+				"GitHub Repos/kelter-antunes.github.io/CNAME"
+			],
+			[
+				"res",
+				"GitHub Repos/os-corporate-site/js/resources-isotype.js"
+			],
+			[
+				"footer",
+				"GitHub Repos/outsystems-blog-theme/footer.php"
+			],
+			[
+				"side",
+				"GitHub Repos/outsystems-blog-theme/sidebar.php"
+			],
+			[
+				"swifjs",
+				"GitHub Repos/os-corporate-site/js/jquery.swiftype.search.js"
+			],
+			[
+				"os-sw",
+				"GitHub Repos/os-corporate-site/js/os-swiftype.js"
+			],
+			[
+				"comom",
+				"GitHub Repos/os-corporate-site/js/common.js"
+			],
+			[
+				"next",
+				"GitHub Repos/os-nextstep-site/css/css-nextstep.css"
+			],
+			[
+				"os-swift",
+				"GitHub Repos/os-corporate-site/js/os-swiftype-community.js"
+			],
+			[
+				"com",
+				"GitHub Repos/os-corporate-site/js/common.js"
+			],
+			[
+				"os-swi",
+				"GitHub Repos/os-corporate-site/js/os-swiftype.js"
+			],
+			[
+				"os-swifty",
+				"GitHub Repos/os-corporate-site/js/os-swiftype-community.js"
+			],
+			[
+				"commun",
+				"GitHub Repos/os-corporate-site/js/os-swiftype-community.js"
+			],
+			[
+				"scri",
+				"GitHub Repos/appui/js/builder/v2/scripts.js"
+			],
+			[
+				"compa",
+				"GitHub Repos/os-corporate-site/html/company-sublevel-menu.html"
+			],
+			[
+				"customer",
+				"GitHub Repos/os-corporate-site/html/customers-subhover-menu.html"
+			],
+			[
+				"",
+				"TODO'S"
+			],
+			[
+				"level",
+				"GitHub Repos/os-corporate-site/html/company-sublevel-menu.html"
+			],
+			[
+				"nex",
+				"GitHub Repos/os-nextstep-site/css/css-nextstep.css"
+			],
+			[
+				"os-ws",
+				"GitHub Repos/os-corporate-site/js/os-ws-popup.js"
+			],
+			[
+				"kise",
+				"GitHub Repos/os-corporate-site/js/function_sendKissEvent.js"
+			],
+			[
+				"mk",
+				"GitHub Repos/os-corporate-site/js/os-mkto.js"
+			],
+			[
+				"kis",
+				"GitHub Repos/os-corporate-site/js/function_sendKissEvent.js"
+			],
+			[
+				"fun",
+				"GitHub Repos/outsystems-blog-theme/functions.php"
+			],
+			[
+				"inde",
+				"GitHub Repos/outsystems-blog-theme/index.php"
+			],
+			[
+				"corporate",
+				"GitHub Repos/os-corporate-site/css/corporate-site-header.css"
+			],
+			[
+				"communit",
+				"GitHub Repos/os-corporate-site/js/os-swiftype-community.js"
+			],
+			[
+				"med",
+				"GitHub Repos/os-corporate-site/css/corporate-site-medias.css"
+			],
+			[
+				"homepa",
+				"GitHub Repos/os-corporate-site/html/homepage.html"
+			],
+			[
+				"hero",
+				"GitHub Repos/os-corporate-site/html/homepage-hero.html"
+			],
+			[
+				"medias",
+				"GitHub Repos/os-corporate-site/css/corporate-site-medias.css"
+			],
+			[
+				"cor",
+				"GitHub Repos/os-corporate-site/css/corporate-site.css"
+			],
+			[
+				"home-he",
+				"GitHub Repos/os-corporate-site/html/homepage-hero.html"
+			],
+			[
+				"corpot",
+				"GitHub Repos/os-corporate-site/css/corporate-site.css"
+			],
+			[
+				"corporatecss",
+				"os-corporate-site/css/corporate-site.css"
+			],
+			[
+				"os",
+				"os-corporate-site/js/os-swiftype.js"
+			],
+			[
+				"plat",
+				"os-corporate-site/html/platform-tab.html"
+			],
+			[
+				"os-ola",
+				"os-corporate-site/js/os-olark.js"
+			],
+			[
+				"app",
+				"os-corporate-site/html/app-fit.html"
+			],
+			[
+				"olar",
+				"os-corporate-site/js/os-olark.js"
+			],
+			[
+				"hea",
+				"outsystems-blog-theme/header-mobile.php"
+			],
+			[
+				"head",
+				"outsystems-blog-theme/header-mobile.php"
+			],
+			[
+				"rei",
+				"os-nextstep-site/html/register.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

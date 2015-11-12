@@ -681,6 +681,7 @@ body.columbia-breadcrumb-home-evaluation {
   border: 4px solid #727272;
   margin-top: 5px;
   border-radius: 10px;
+  min-width: 440px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .form-field {
   position: relative;
