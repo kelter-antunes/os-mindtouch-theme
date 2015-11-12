@@ -599,7 +599,7 @@ body.columbia-breadcrumb-home-evaluation {
 [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing.area-14 {
   border-left-color: #FFC107;
 }
-[class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing:after {
+[class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing a.clickable-card:after {
   content: "";
   background-image: url("https://success.outsystems.com/%40api/deki/files/1264/arrow-right.jpg");
   background-repeat: no-repeat;
@@ -1110,11 +1110,19 @@ body.columbia-breadcrumb-home-evaluation {
   [class*=columbia-breadcrumb-home-evaluation] dd.mt-listing-detailed-overview {
     display: inline-block;
     width: 40%;
-    margin-right: 10%;
+    margin-right: 8%;
   }
   [class*=columbia-breadcrumb-home-evaluation] dd.mt-listing-detailed-subpages {
     display: inline-block;
     width: 50%;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] dd.mt-listing-detailed-subpages span.featured {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] dd.mt-listing-detailed-subpages .mt-listings-simple {
+    margin-top: 10px;
   }
   [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us {
     padding: 15px 50px;

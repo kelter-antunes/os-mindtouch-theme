@@ -9,7 +9,7 @@
 	}
 	.createcolorclasses((@iterator + 1));
 }	
-@imagePath: "https://success.outsystems.com/%40api/deki/files/";
+@imagePath: "https://success.outsystems.com/%40api/deki/files";
 
 body.columbia-breadcrumb-home-evaluation {
 	background-color: #ECEFF1;
@@ -579,14 +579,14 @@ body.columbia-breadcrumb-home-evaluation {
 
 		.createcolorclasses();
 
-		&:after {
+		a.clickable-card:after {
 		    content: "";
-		    background-image: url("@{imagePath}1264/arrow-right.jpg");
+		    background-image: url("@{imagePath}/1264/arrow-right.jpg");
 		    background-repeat: no-repeat;
 		    position: absolute;
 		    width: 19px;
 		    height: 37px;
-		    right: 30px;
+			right: 30px;
 		    top: 50%;
 		    margin-top: -18.5px;
 		}
@@ -1131,11 +1131,20 @@ body.columbia-breadcrumb-home-evaluation {
 	    dd.mt-listing-detailed-overview{
 	        display: inline-block;
 	        width: 40%;
-	        margin-right: 10%;
+	        margin-right: 8%;
 	    }
 	    dd.mt-listing-detailed-subpages{
 	        display: inline-block;
 	        width: 50%;
+
+	        span.featured {
+			    color: #999;
+			    text-transform: uppercase;
+			    font-size: 10px;
+			}
+			.mt-listings-simple {
+				margin-top: 10px;
+			}
 	    }
 	    .sidebar-cta-box.contact-us{
 			padding: 15px 50px;
