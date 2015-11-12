@@ -345,6 +345,7 @@ body.columbia-breadcrumb-home-evaluation {
   font-size: 12px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .mt-feedback-rating-controls button:before {
+  font-family: OS-Icon-Set;
   font-size: 100%;
   top: 0;
 }
