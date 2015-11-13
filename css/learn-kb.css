@@ -1154,3 +1154,21 @@ body.columbia-breadcrumb-home-evaluation {
     text-align: left!important;
   }
 }
+@media all and (max-width: 50em) {
+  [class*=columbia-breadcrumb-home-evaluation] .elm-meta-article-navigation.elm-meta-data li {
+    float: none;
+    margin-top: 20px !important;
+    width: 100%;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .elm-meta-article-navigation.elm-meta-data li a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .elm-meta-article-navigation.elm-meta-data li a span {
+    width: auto;
+    max-width: 47em;
+    float: left;
+  }
+}
