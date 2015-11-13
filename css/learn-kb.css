@@ -610,8 +610,15 @@ body.columbia-breadcrumb-home-evaluation {
   display: none;
   visibility: hidden;
 }
+[class*=columbia-breadcrumb-home-evaluation] .hero-wrapper {
+  background-image: url('https://success.outsystems.com/%40api/deki/files/1621/header_kb.jpg');
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position: top;
+  background-color: #E5EAED;
+}
 [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .elm-content-container {
-  padding: .65rem .65rem 2em;
+  padding: 3.4rem 0.65rem;
 }
 [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero {
   display: inline-block;
