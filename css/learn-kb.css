@@ -740,9 +740,9 @@ body.columbia-breadcrumb-home-evaluation {
 [class*=columbia-breadcrumb-home-evaluation] input#kb-search.loader {
   background-image: url("https://success.outsystems.com/%40api/deki/files/1650/loader.gif");
   background-repeat: no-repeat;
-  background-position-x: 98%;
-  background-position-y: 5px;
-  background-size: 35px;
+  background-position-x: 97%;
+  background-position-y: 15px;
+  background-size: 15px;
   margin-bottom: 0;
 }
 [class*=columbia-breadcrumb-home-evaluation] .form-field .input-wrapper {
