@@ -875,16 +875,22 @@ body.columbia-breadcrumb-home-evaluation {
 					&.active {
 						position: relative;
 
-						&.current:after{
-							font-family: icomoon;
-						    content: "\e8dc";
-						    position: absolute;
-						    right: -10px;
-						    top: 10px;
-						    font-size: 20px;
-						    color: #C20;
+						&.current{
+							&:before,
+							span:before{
+								font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+								content: "|";
+						    	position: absolute;
+						    	left: 0px;
+						    	top: 15px;
+						    	font-size: 20px;
+						    	color: #C20
+							}
+							a{
+								margin-left: 10px;
+							}
 						}
-
+						
 						ul.second-level {
 							display: block;
 						}
@@ -934,7 +940,7 @@ body.columbia-breadcrumb-home-evaluation {
 
 							li.active {
 								position: relative;
-
+								/*
 								&.current:after{
 									font-family: icomoon;
     								content: "\e8dc";
@@ -943,7 +949,7 @@ body.columbia-breadcrumb-home-evaluation {
     								top: 14px;
     								font-size: 16px;
 								}
-
+								*/
 								ul.third-level {
 									display: block;
 								}
@@ -976,6 +982,7 @@ body.columbia-breadcrumb-home-evaluation {
 									color: #c20;
 									font-weight: 400;
 								}
+								/*
 								li a:before {
 									content: "";
 									margin-right: 10px;
@@ -987,6 +994,7 @@ body.columbia-breadcrumb-home-evaluation {
 								li.active a:before {
 									border-left: 2px solid #c20;
 								}
+								*/
 							}
 						}
 					}
@@ -1071,6 +1079,13 @@ body.columbia-breadcrumb-home-evaluation {
 			}
 			aside#mt-toc-container{
 				margin: 0 0 0 20px;
+			}
+		}
+		@media all and (min-width: 50em){
+			.top-nav{
+				.breadcrumb{
+					max-width: 55em;
+				}
 			}
 		}
 		@media all and (min-width: 65.25em){
