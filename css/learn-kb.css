@@ -1019,9 +1019,12 @@ body.columbia-breadcrumb-home-evaluation {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .page,
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
     display: inline-block;
+    margin-left: 20px;
+    margin-right: 10px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper {
     display: block !important;
+    margin-left: 15px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     padding-left: 290px;
@@ -1033,6 +1036,7 @@ body.columbia-breadcrumb-home-evaluation {
 @media all and (min-width: 65.25em) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper {
     left: 40px;
+    margin-left: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     padding-left: 335px;
@@ -1040,6 +1044,11 @@ body.columbia-breadcrumb-home-evaluation {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
     padding-left: 40px;
     margin: 20px 0 0 0;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 50px;
   }
 }
 @media all and (min-width: 83em) {
