@@ -1056,10 +1056,11 @@ body.columbia-breadcrumb-home-evaluation {
 }
 @media all and (min-width: 18.75em) {
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero {
-    width: 100%;
+    width: 75%;
     margin-right: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero h1 {
+    font-size: 29px;
     margin-bottom: 1rem;
   }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .search-wrapper {
@@ -1111,6 +1112,7 @@ body.columbia-breadcrumb-home-evaluation {
     margin-right: 7%;
   }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero h1 {
+    font-size: 36px;
     margin-bottom: 1rem;
   }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .search-wrapper {
