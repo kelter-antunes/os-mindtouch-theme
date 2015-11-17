@@ -885,6 +885,15 @@ body.columbia-breadcrumb-home-evaluation {
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active {
   position: relative;
 }
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active.current:after {
+  font-family: icomoon;
+  content: "\e8dc";
+  position: absolute;
+  right: -10px;
+  top: 10px;
+  font-size: 20px;
+  color: #C20;
+}
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active ul.second-level {
   display: block;
 }
@@ -920,6 +929,14 @@ body.columbia-breadcrumb-home-evaluation {
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level li.active {
   position: relative;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level li.active.current:after {
+  font-family: icomoon;
+  content: "\e8dc";
+  position: absolute;
+  right: -5px;
+  top: 14px;
+  font-size: 16px;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level li.active ul.third-level {
   display: block;

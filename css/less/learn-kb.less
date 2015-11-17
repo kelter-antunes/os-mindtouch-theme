@@ -875,6 +875,16 @@ body.columbia-breadcrumb-home-evaluation {
 					&.active {
 						position: relative;
 
+						&.current:after{
+							font-family: icomoon;
+						    content: "\e8dc";
+						    position: absolute;
+						    right: -10px;
+						    top: 10px;
+						    font-size: 20px;
+						    color: #C20;
+						}
+
 						ul.second-level {
 							display: block;
 						}
@@ -925,10 +935,21 @@ body.columbia-breadcrumb-home-evaluation {
 							li.active {
 								position: relative;
 
+								&.current:after{
+									font-family: icomoon;
+    								content: "\e8dc";
+    								position: absolute;
+									right: -5px;
+    								top: 14px;
+    								font-size: 16px;
+								}
+
 								ul.third-level {
 									display: block;
 								}
 							}
+
+
 							a {
 								padding: 15px;
 								padding-left: 0;
