@@ -1036,6 +1036,8 @@ body.columbia-breadcrumb-home-evaluation {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .page,
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
     display: inline-block;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
     margin-left: 20px;
     margin-right: 10px;
   }
