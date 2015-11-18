@@ -860,9 +860,7 @@ body.columbia-breadcrumb-home-evaluation {
 				margin: 0;
 				padding: 0;
 				background: #FFF;
-				//border: 1px solid #EEE;
 				border-radius: 3px;
-				//box-shadow: 0 2px 60px 20px #eee;
 
 				li {
 					padding: 0px;
@@ -876,6 +874,7 @@ body.columbia-breadcrumb-home-evaluation {
 						position: relative;
 
 						&.current{
+
 							&:before,
 							span:before{
 								font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -887,20 +886,19 @@ body.columbia-breadcrumb-home-evaluation {
 						    	color: #C20
 							}
 							a{
-								margin-left: 10px;
-							
 								span{
 									margin-right: 0;
 								}
+							}
+							> a {
+								color: #C20;
+								font-weight: 700;
 							}
 						}
 						
 						ul.second-level {
 							display: block;
 						}
-					}
-					&.active > a {
-						font-weight: bold;
 					}
 					a {
 						padding: 15px;
@@ -923,17 +921,6 @@ body.columbia-breadcrumb-home-evaluation {
 					a:hover {
 						background: #ECEFF1;
 					}
-
-					/*&.active:before, a:hover:before {
-						content: "";
-						border-left: 2px solid #c20;
-						position: absolute;
-						top: -1px;
-						bottom: -1px;
-						left: -3px;
-						border-top-left-radius: 3px;
-						border-bottom-left-radius: 3px;
-					}*/
 					ul {
 						&.second-level {
 							margin: 0;
@@ -943,21 +930,15 @@ body.columbia-breadcrumb-home-evaluation {
 
 							li.active {
 								position: relative;
-								/*
-								&.current:after{
-									font-family: icomoon;
-    								content: "\e8dc";
-    								position: absolute;
-									right: -5px;
-    								top: 14px;
-    								font-size: 16px;
-								}
-								*/
+								
 								ul.third-level {
 									display: block;
+
+									li.active.current:before{
+										left: 25px;
+									}
 								}
 							}
-
 
 							a {
 								padding: 15px;
@@ -981,23 +962,9 @@ body.columbia-breadcrumb-home-evaluation {
 								li a {
 									margin-left: 45px;
 								}
-								li.active a {
-									color: #c20;
-									font-weight: 400;
+								li.active.current:before{
+									left: 15px;
 								}
-								/*
-								li a:before {
-									content: "";
-									margin-right: 10px;
-									float: left;
-									border-left: 2px solid #eee;
-									height: 16px;
-									margin-bottom: 3px;
-								}
-								li.active a:before {
-									border-left: 2px solid #c20;
-								}
-								*/
 							}
 						}
 					}

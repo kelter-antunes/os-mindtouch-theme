@@ -868,16 +868,6 @@ body.columbia-breadcrumb-home-evaluation {
   padding: 0px;
   margin: 0;
   position: relative;
-  /*&.active:before, a:hover:before {
-						content: "";
-						border-left: 2px solid #c20;
-						position: absolute;
-						top: -1px;
-						bottom: -1px;
-						left: -3px;
-						border-top-left-radius: 3px;
-						border-bottom-left-radius: 3px;
-					}*/
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li:focus {
   outline: none;
@@ -895,17 +885,15 @@ body.columbia-breadcrumb-home-evaluation {
   font-size: 20px;
   color: #C20;
 }
-[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active.current a {
-  margin-left: 10px;
-}
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active.current a span {
   margin-right: 0;
 }
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active.current > a {
+  color: #C20;
+  font-weight: 700;
+}
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active ul.second-level {
   display: block;
-}
-[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active > a {
-  font-weight: bold;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li a {
   padding: 15px;
@@ -935,19 +923,12 @@ body.columbia-breadcrumb-home-evaluation {
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level li.active {
   position: relative;
-  /*
-								&.current:after{
-									font-family: icomoon;
-    								content: "\e8dc";
-    								position: absolute;
-									right: -5px;
-    								top: 14px;
-    								font-size: 16px;
-								}
-								*/
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level li.active ul.third-level {
   display: block;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level li.active ul.third-level li.active.current:before {
+  left: 25px;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level a {
   padding: 15px;
@@ -967,26 +948,12 @@ body.columbia-breadcrumb-home-evaluation {
   padding: 0;
   list-style: none;
   display: none;
-  /*
-								li a:before {
-									content: "";
-									margin-right: 10px;
-									float: left;
-									border-left: 2px solid #eee;
-									height: 16px;
-									margin-bottom: 3px;
-								}
-								li.active a:before {
-									border-left: 2px solid #c20;
-								}
-								*/
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level .third-level li a {
   margin-left: 45px;
 }
-[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level .third-level li.active a {
-  color: #c20;
-  font-weight: 400;
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level .third-level li.active.current:before {
+  left: 15px;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar button.elm-hierarchy-trigger.mt-hierarchy-trigger.ui-button-icon.mt-icon-hierarchy-trigger-closed,
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar button.elm-hierarchy-trigger.mt-hierarchy-trigger.ui-button-icon.mt-icon-hierarchy-trigger-open {
