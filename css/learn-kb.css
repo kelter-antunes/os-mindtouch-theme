@@ -1255,6 +1255,9 @@ body.columbia-breadcrumb-home-evaluation {
     margin: auto;
     line-height: 19px;
   }
+  [class*=columbia-breadcrumb-home-evaluation] dt.mt-listing-detailed-title {
+    margin: 0 0 1em;
+  }
   [class*=columbia-breadcrumb-home-evaluation] article.elm-content-container.evaluation-kb header {
     width: 50em;
     margin: auto;
