@@ -209,12 +209,13 @@ body.columbia-breadcrumb-home-evaluation {
   padding-bottom: .3em;
   font-size: 32px;
 }
-[class*=columbia-breadcrumb-home-evaluation] h2 {
+[class*=columbia-breadcrumb-home-evaluation] h2,
+[class*=columbia-breadcrumb-home-evaluation] #section_1 > h2 {
   border-bottom: 1px solid #CFD8DC;
-  font-size: 2.1em;
-  margin-bottom: 2 em;
   margin-top: 38px;
   padding-bottom: .7rem;
+  color: #555;
+  font-size: 2em;
 }
 [class*=columbia-breadcrumb-home-evaluation] h3 {
   border-bottom: 1px solid #CFD8DC;
