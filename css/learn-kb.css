@@ -1026,6 +1026,9 @@ body.columbia-breadcrumb-home-evaluation {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .page {
     display: block;
   }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .breadcrumb {
+    line-height: 2;
+  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper {
     display: none !important;
   }
@@ -1051,6 +1054,7 @@ body.columbia-breadcrumb-home-evaluation {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .breadcrumb {
     max-width: 30em;
+    line-height: 1.5em;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper {
     display: block !important;
