@@ -44,23 +44,6 @@ body.columbia-breadcrumb-home-evaluation {
 	OrderedSubpages 
 	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/ViewsCategory/OrderedSubpages
 	*/
-  /*
-	dd.mt-listing-detailed-navigation {
-		position: absolute;
-	    left: 25px;
-	    bottom: 37px;
-	    text-transform: uppercase;
-	    font-size: 10px;
-	    padding: 7px 10px;
-	    border: 1px solid #f0f0f0;
-	    border-radius: 2px;
-	    background: #f0f0f0;
-	    font-weight: 600;
-	}
-	dd.mt-listing-detailed-navigation a {
-    	color: #555;
-	}
-	*/
   /* 
 	Evaluation Guide Topics 
 	https://success.outsystems.com/Template:0Template%3AOutSystems/Evaluation_KB/EvaluationGuideTopics
@@ -306,6 +289,7 @@ body.columbia-breadcrumb-home-evaluation {
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .breadcrumb .parent.crumb {
   text-decoration: underline;
+  color: #999;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .breadcrumb span.after:after {
   content: '\00bb';
@@ -543,6 +527,8 @@ body.columbia-breadcrumb-home-evaluation {
 }
 [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing {
   position: relative;
+  -ms-flex: 1 1 50em;
+  -webkit-flex: 1 1 50em;
   flex: 1 1 50em;
   padding: 10px 20px;
   background-color: white;
