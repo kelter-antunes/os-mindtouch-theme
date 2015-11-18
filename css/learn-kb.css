@@ -258,11 +258,6 @@ body.columbia-breadcrumb-home-evaluation {
   color: #666;
   font-size: 14px;
 }
-[class*=columbia-breadcrumb-home-evaluation] .mt-content-container {
-  width: 50em;
-  margin: auto;
-  line-height: 19px;
-}
 [class*=columbia-breadcrumb-home-evaluation] .elm-article-feedback {
   margin-bottom: 40px;
   margin-top: 40px;
@@ -447,11 +442,6 @@ body.columbia-breadcrumb-home-evaluation {
   border: none;
   box-shadow: none;
   height: auto !important;
-}
-[class*=columbia-breadcrumb-home-evaluation] .elm-content-container .evaluation-kb header {
-  width: 50em;
-  margin: auto;
-  margin-top: 60px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-related-articles-container {
   display: none;
@@ -1245,5 +1235,17 @@ body.columbia-breadcrumb-home-evaluation {
     width: auto;
     max-width: 47em;
     float: left;
+  }
+}
+@media all and (min-width: 80em) {
+  [class*=columbia-breadcrumb-home-evaluation] .mt-content-container {
+    width: 50em;
+    margin: auto;
+    line-height: 19px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] article.elm-content-container.evaluation-kb header {
+    width: 50em;
+    margin: auto;
+    margin-top: 60px;
   }
 }
