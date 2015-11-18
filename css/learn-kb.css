@@ -306,6 +306,7 @@ body.columbia-breadcrumb-home-evaluation {
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .breadcrumb .parent.crumb {
   text-decoration: underline;
+  color: #999;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .breadcrumb span.after:after {
   content: '\00bb';
