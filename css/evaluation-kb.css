@@ -195,7 +195,7 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   border-bottom: 1px solid #CFD8DC;
   font-size: 2.1em;
   margin-bottom: 2 em;
-  margin-top: 3rem;
+  margin-top: 38px;
   padding-bottom: .7rem;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] h3 {
@@ -220,20 +220,30 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] h4 ~ ul li {
   margin-left: 3%;
 }
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] p {
+  line-height: 1.9;
+  color: #666;
+  font-size: 14px;
+}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] table {
   border: 1px solid #eee;
   margin-top: 40px;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] table td {
   background: #ECEFF1;
-  border: none;
+  border: 1px solid #eee;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] thead tr th {
   background: rgba(113, 174, 214, 0.7);
-  border: none;
+  border: 1px;
   color: #384142;
   font-size: 1rem;
   text-align: center;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .mt-content-container {
+  width: 50em;
+  margin: auto;
+  line-height: 19px;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .elm-content-footer {
   background: red;
@@ -351,10 +361,26 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] #title h1 {
   line-height: 48px;
 }
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .elm-content-container #pageText ul {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .elm-content-container #pageText ul li {
+  margin-top: 0.4em;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .elm-content-container #pageText p img {
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .elm-content-container img {
   border: none;
   box-shadow: none;
   height: auto !important;
+}
+[class*=columbia-breadcrumb-home-evaluationknowledgebase] .elm-content-container .evaluation-kb header {
+  width: 50em;
+  margin: auto;
+  margin-top: 60px;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .elm-related-articles-container {
   display: none;
@@ -428,15 +454,17 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
   background-color: #ECEFF1;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .more-related ul.related-list li.related-item a {
-  padding: 20px 50px 20px 30px;
-  border: 1px solid #EEE;
+  padding: 25px 60px 30px 40px;
+  border: 1px solid #d6d6d6;
   border-radius: 3px;
-  -webkit-box-shadow: 0px 1px 2px 0px #EEEEEE;
-  -moz-box-shadow: 0px 1px 2px 0px #EEEEEE;
-  box-shadow: 0px 1px 2px 0px #EEEEEE;
+  -webkit-box-shadow: 0 1px 2px 0 #EEE;
+  -moz-box-shadow: 0 1px 2px 0 #EEE;
+  box-shadow: 0 1px 2px 0 #EEE;
   margin-bottom: 5px;
   display: block;
   position: relative;
+  font-size: 18px;
+  font-family: myriad-pro, sans-serif;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .more-related ul.related-list li.related-item a:after {
   content: "";
@@ -452,7 +480,9 @@ body.columbia-breadcrumb-home-evaluationknowledgebase {
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] .more-related ul.related-list li.related-item a span {
   color: #333;
   display: block;
-  margin-top: 10px;
+  font-size: 14px;
+  font-family: Arial, Sans-serif;
+  margin-top: 18px;
 }
 [class*=columbia-breadcrumb-home-evaluationknowledgebase] nav.elm-header-global-nav.elm-nav {
   display: none;
