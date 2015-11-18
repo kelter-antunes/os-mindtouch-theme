@@ -1135,7 +1135,6 @@ body.columbia-breadcrumb-home-evaluation {
     top: 25px;
   }
   [class*=columbia-breadcrumb-home-evaluation] dt.mt-listing-detailed-title {
-    margin: 0 0 1em 4.5em;
     font-size: 10px;
   }
   [class*=columbia-breadcrumb-home-evaluation] dd.mt-listing-detailed-subpages {
@@ -1184,7 +1183,6 @@ body.columbia-breadcrumb-home-evaluation {
     margin: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation] dt.mt-listing-detailed-title {
-    margin: 0 0 1em 3.5em;
     font-size: 12.6px;
   }
   [class*=columbia-breadcrumb-home-evaluation] dd.mt-listing-detailed-overview {
