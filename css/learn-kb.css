@@ -880,7 +880,7 @@ body.columbia-breadcrumb-home-evaluation {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   content: "|";
   position: absolute;
-  left: 0px;
+  left: 5px;
   top: 15px;
   font-size: 20px;
   color: #C20;
@@ -891,9 +891,13 @@ body.columbia-breadcrumb-home-evaluation {
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active.current > a {
   color: #C20;
   font-weight: 700;
+  padding-left: 25px;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active ul.second-level {
   display: block;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active ul.second-level a {
+  padding-left: 0;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li a {
   padding: 15px;
