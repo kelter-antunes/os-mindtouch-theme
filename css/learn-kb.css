@@ -1238,7 +1238,7 @@ body.columbia-breadcrumb-home-evaluation {
   }
 }
 @media all and (min-width: 80em) {
-  [class*=columbia-breadcrumb-home-evaluation] .mt-content-container {
+  [class*=columbia-breadcrumb-home-evaluation] article.elm-content-container.evaluation-kb .mt-content-container {
     width: 50em;
     margin: auto;
     line-height: 19px;
