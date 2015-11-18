@@ -294,6 +294,7 @@ body.columbia-breadcrumb-home-evaluation {
   text-align: left;
   margin-top: 30px;
   display: inline-block;
+  line-height: 1.5em;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .breadcrumb .crumb {
   display: inline-block;
