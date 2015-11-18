@@ -85,6 +85,7 @@ body.columbia-breadcrumb-home-evaluation {
   outline: none;
   border: none;
   text-transform: uppercase;
+  white-space: pre;
 }
 [class*=columbia-breadcrumb-home-evaluation] a.btn:active,
 [class*=columbia-breadcrumb-home-evaluation] a.btn:hover {
