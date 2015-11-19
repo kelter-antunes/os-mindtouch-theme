@@ -9,7 +9,7 @@ module.exports = function(grunt) {
                     banner: '/* My minified css file */'
                 },
                 files: {
-                    'css/bundle/os-mt-popup.css': [
+                    'css/bundle/os-mt-popup.min.css': [
                         'css/normalize.css',
                         'css/popups.css'
                     ],
