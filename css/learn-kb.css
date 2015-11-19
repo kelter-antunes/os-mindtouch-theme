@@ -1118,6 +1118,9 @@ body.columbia-breadcrumb-home-evaluation {
   }
 }
 @media all and (min-width: 18.75em) {
+  [class*=columbia-breadcrumb-home-evaluation] .mt-content-container {
+    margin-top: 0;
+  }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero {
     width: 75%;
     margin-right: 0;
