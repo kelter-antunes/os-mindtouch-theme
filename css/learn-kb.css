@@ -15,6 +15,20 @@ body.columbia-breadcrumb-home-evaluation {
   display: none;
   visibility: hidden;
 }
+.columbia-breadcrumb-home-evaluation .mt-content-container {
+  margin-top: -100px;
+  z-index: 999;
+}
+.columbia-breadcrumb-home-evaluation .elm-content-container header {
+  display: none;
+  visibility: hidden;
+}
+.columbia-breadcrumb-home-evaluation .elm-header {
+  z-index: -2;
+}
+.columbia-breadcrumb-home-evaluation .hero-wrapper {
+  height: 306px;
+}
 /* base class to encapsulate evaluation kb styles */
 [class*=columbia-breadcrumb-home-evaluation] {
   /*
@@ -436,14 +450,11 @@ body.columbia-breadcrumb-home-evaluation {
 [class*=columbia-breadcrumb-home-evaluation] .elm-content-container .evaluation-kb #pageText ul li {
   margin-top: 0.4em;
 }
-[class*=columbia-breadcrumb-home-evaluation] .elm-content-container .evaluation-kb #pageText p img {
-  border: 1px solid #eee;
-  border-radius: 4px;
-}
-[class*=columbia-breadcrumb-home-evaluation] .elm-content-container .evaluation-kb img {
+[class*=columbia-breadcrumb-home-evaluation] .elm-content-container .evaluation-kb #pageText img {
   border: none;
   box-shadow: none;
-  height: auto !important;
+  height: auto;
+  border-radius: 4px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-related-articles-container {
   display: none;

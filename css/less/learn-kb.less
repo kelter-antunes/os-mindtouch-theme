@@ -30,6 +30,25 @@ body.columbia-breadcrumb-home-evaluation {
 		display: none;
 		visibility: hidden;
 	}
+
+	.mt-content-container {
+	    margin-top: -100px;
+	    z-index: 999;
+	}
+	
+	.elm-content-container header {
+	    display: none;
+	    visibility: hidden;
+	}
+
+	.elm-header {
+	    z-index: -2;
+	}
+
+	.hero-wrapper {
+	    height: 306px;
+	}
+
 }
 
 /* base class to encapsulate evaluation kb styles */
@@ -431,22 +450,20 @@ body.columbia-breadcrumb-home-evaluation {
 		.evaluation-kb{
 			#pageText {
 				ul {
-					margin-top: 30px;
-					margin-left: 20px;
+				margin-top: 30px;
+				margin-left: 20px;
 
 					li {
 						margin-top: 0.4em;
 					}
+				
 				}
-				p img {
-					border: 1px solid #eee;
+				img {
+					border: none;
+					box-shadow: none;
+					height: auto;
 					border-radius: 4px;
 				}
-			}
-			img {
-				border: none;
-				box-shadow: none;
-				height: auto !important;
 			}
 		}
 	}
