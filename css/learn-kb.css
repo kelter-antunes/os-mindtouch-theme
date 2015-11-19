@@ -15,10 +15,6 @@ body.columbia-breadcrumb-home-evaluation {
   display: none;
   visibility: hidden;
 }
-.columbia-breadcrumb-home-evaluation .mt-content-container {
-  margin-top: -100px;
-  z-index: 999;
-}
 .columbia-breadcrumb-home-evaluation .elm-content-container header {
   display: none;
   visibility: hidden;
@@ -28,6 +24,12 @@ body.columbia-breadcrumb-home-evaluation {
 }
 .columbia-breadcrumb-home-evaluation .hero-wrapper {
   height: 306px;
+}
+@media all and (max-width: 50em) {
+  .columbia-breadcrumb-home-evaluation .mt-content-container {
+    margin-top: -100px;
+    z-index: 999;
+  }
 }
 /* base class to encapsulate evaluation kb styles */
 [class*=columbia-breadcrumb-home-evaluation] {
