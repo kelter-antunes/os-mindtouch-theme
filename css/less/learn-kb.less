@@ -13,7 +13,11 @@
 
 
 body.columbia-breadcrumb-home-evaluation {
-	background-color: #ECEFF1;
+    background-image: url(https://success.outsystems.com/%40api/deki/files/1621/header_bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: center 60px;
+    background-color: #ECEFF1;
 }
 
 /* styles just for the homepage*/
@@ -37,15 +41,6 @@ body.columbia-breadcrumb-home-evaluation {
 	    display: none;
 	    visibility: hidden;
 	}
-
-	.elm-header {
-	    z-index: 0;
-	}
-
-	.hero-wrapper {
-	    height: 306px;
-	}
-
 
 
 }
@@ -640,11 +635,8 @@ body.columbia-breadcrumb-home-evaluation {
 		visibility: hidden;
 	}
 	.hero-wrapper {
-		background-image: url('@{imagePath}/1621/header_bg-1.jpg');
-		background-repeat: no-repeat;
-		background-size: initial;
-		background-position: top;
-		background-color: #ECEFF1;
+		background:none;
+		height: 200px;
 
 		.elm-content-container {
 			padding: 3.4rem 0.65rem;
@@ -1059,6 +1051,9 @@ body.columbia-breadcrumb-home-evaluation {
 			margin-left: 0px;
 		}
 		@media all and (min-width:18.75em) {
+
+
+
 			.top-nav {
 				padding: 0 .65rem;
 				line-height: 2;
@@ -1152,15 +1147,16 @@ body.columbia-breadcrumb-home-evaluation {
 	}
 	@media all and (min-width:18.75em) {
 
-		.mt-content-container {
-        	margin-top: 0;
-    	}
 
 		.hero-wrapper {
+			height: auto;
 			.evaluation-hero {
 				width: 75%;
 				margin-right: 0;
 
+				p {
+					width: 80%;
+				}
 				h1 {
 					font-size: 29px;
 					margin-bottom: 1rem;
@@ -1172,6 +1168,11 @@ body.columbia-breadcrumb-home-evaluation {
 				.form-field {
 					top: 10px;
 				}
+			}
+
+
+			.elm-content-container {
+				padding: 0.4rem 0.65rem 0px;;
 			}
 		}
 		.elm-content-container {
@@ -1212,10 +1213,22 @@ body.columbia-breadcrumb-home-evaluation {
 	}
 	@media all and (min-width:37.5em) {
 		.hero-wrapper {
+			height: 200px;
+
+			.elm-content-container {
+    			padding: 3.4rem 0.65rem;
+			}
+
 			.evaluation-hero {
 				display: inline-block;
 				width: 43%;
 				margin-right: 7%;
+
+				p {
+					width: auto;
+				}
+
+
 
 				h1 {
 					font-size: 36px;
@@ -1327,10 +1340,3 @@ body.columbia-breadcrumb-home-evaluation {
 		}
 	}
 }
-
-	@media all and (min-width:50em) {
-		.columbia-breadcrumb-home-evaluation .mt-content-container {
-		    margin-top: -100px;
-		    z-index: 999;
-		}
-		}

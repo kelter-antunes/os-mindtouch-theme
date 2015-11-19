@@ -1,5 +1,9 @@
 /* Dynamically add color to the cards on Learn About OutSystems Home Page  */
 body.columbia-breadcrumb-home-evaluation {
+  background-image: url(https://success.outsystems.com/%40api/deki/files/1621/header_bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position: center 60px;
   background-color: #ECEFF1;
 }
 /* styles just for the homepage*/
@@ -18,12 +22,6 @@ body.columbia-breadcrumb-home-evaluation {
 .columbia-breadcrumb-home-evaluation .elm-content-container header {
   display: none;
   visibility: hidden;
-}
-.columbia-breadcrumb-home-evaluation .elm-header {
-  z-index: 0;
-}
-.columbia-breadcrumb-home-evaluation .hero-wrapper {
-  height: 306px;
 }
 /* base class to encapsulate evaluation kb styles */
 [class*=columbia-breadcrumb-home-evaluation] {
@@ -638,11 +636,8 @@ body.columbia-breadcrumb-home-evaluation {
   visibility: hidden;
 }
 [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper {
-  background-image: url('https://success.outsystems.com/%40api/deki/files/1621/header_bg-1.jpg');
-  background-repeat: no-repeat;
-  background-size: initial;
-  background-position: top;
-  background-color: #ECEFF1;
+  background: none;
+  height: 200px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .elm-content-container {
   padding: 3.4rem 0.65rem;
@@ -1114,12 +1109,15 @@ body.columbia-breadcrumb-home-evaluation {
   }
 }
 @media all and (min-width: 18.75em) {
-  [class*=columbia-breadcrumb-home-evaluation] .mt-content-container {
-    margin-top: 0;
+  [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper {
+    height: auto;
   }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero {
     width: 75%;
     margin-right: 0;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero p {
+    width: 80%;
   }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero h1 {
     font-size: 29px;
@@ -1130,6 +1128,9 @@ body.columbia-breadcrumb-home-evaluation {
   }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .search-wrapper .form-field {
     top: 10px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .elm-content-container {
+    padding: 0.4rem 0.65rem 0px;
   }
   [class*=columbia-breadcrumb-home-evaluation] .elm-content-container {
     padding: .65rem .65rem 2em;
@@ -1167,10 +1168,19 @@ body.columbia-breadcrumb-home-evaluation {
   }
 }
 @media all and (min-width: 37.5em) {
+  [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper {
+    height: 200px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .elm-content-container {
+    padding: 3.4rem 0.65rem;
+  }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero {
     display: inline-block;
     width: 43%;
     margin-right: 7%;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero p {
+    width: auto;
   }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero h1 {
     font-size: 36px;
@@ -1272,11 +1282,5 @@ body.columbia-breadcrumb-home-evaluation {
     width: 50em;
     margin: auto;
     margin-top: 60px;
-  }
-}
-@media all and (min-width: 50em) {
-  .columbia-breadcrumb-home-evaluation .mt-content-container {
-    margin-top: -100px;
-    z-index: 999;
   }
 }
