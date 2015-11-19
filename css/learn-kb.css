@@ -446,7 +446,7 @@ body.columbia-breadcrumb-home-evaluation {
 [class*=columbia-breadcrumb-home-evaluation] .elm-content-container .evaluation-kb #pageText ul li {
   margin-top: 0.4em;
 }
-[class*=columbia-breadcrumb-home-evaluation] .elm-content-container .evaluation-kb #pageText img {
+[class*=columbia-breadcrumb-home-evaluation] .elm-content-container img {
   border: none;
   box-shadow: none;
   height: auto;
@@ -642,7 +642,7 @@ body.columbia-breadcrumb-home-evaluation {
   background-repeat: no-repeat;
   background-size: initial;
   background-position: top;
-  background-color: #E5EAED;
+  background-color: #ECEFF1;
 }
 [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .elm-content-container {
   padding: 3.4rem 0.65rem;
