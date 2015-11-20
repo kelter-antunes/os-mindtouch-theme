@@ -712,7 +712,8 @@ body.columbia-breadcrumb-home-evaluation {
 		border: 4px solid #727272;
 		margin-top: 5px;
 		border-radius: 10px;
-		min-width: 440px;
+		min-width: 100%;
+    	box-sizing: border-box;
 	}
 	.form-field {
 		position: relative;
@@ -1212,6 +1213,10 @@ body.columbia-breadcrumb-home-evaluation {
 		}
 	}
 	@media all and (min-width:37.5em) {
+		&.body-with-sidebar .recommended-articles {
+		    min-width: 500px;
+		}
+
 		.hero-wrapper {
 			height: 200px;
 
