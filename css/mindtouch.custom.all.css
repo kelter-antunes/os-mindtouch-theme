@@ -1002,6 +1002,8 @@ div.Header-UserInfo {
         width: 96px;
         text-align: left;
     }
+    .Desktop,
+    .mobile-notdisplay,
     .search-mobile-wrapper {
         display: none;
     }
@@ -1026,9 +1028,6 @@ div.Header-UserInfo {
         right: 60px;
         position: absolute;
         top: 0px;
-    }
-    .mobile-notdisplay {
-        display: none;
     }
     .mobile-display {
         display: block;
