@@ -498,10 +498,6 @@ button, input, select, textarea {
 /* END GRID */
 
 /* START HEADER */
-
-.header-info {
-    color: #BABABA;
-}
 .header {
     background: url("//www.outsystems.com/CommunityBaseTheme/img/bgheader.png") repeat-x scroll left top #444;
     height: 92px;
@@ -509,7 +505,16 @@ button, input, select, textarea {
 .header-small {
     height: 57px;
 }
-
+.header-info {
+    color: #BABABA;
+}
+.header .OSInline {
+    display: inline-block;
+    vertical-align: top;
+}
+.header .pointer{
+    cursor: pointer;
+}
 /*html structure*/
 .header-logo {
     padding: 10px 0;
@@ -601,12 +606,17 @@ button, input, select, textarea {
     font-size: 13px;
 }
 .menu-item a {
-    color: #666 !Important;
+    color: #666;
     display: block;
     font-size: 13px;
 }
-.menu-item a:hover, .menu-item.active a.menu-academy-overview, .menu-item.active a.menu-support, .menu-item.active a.menu-training, .menu-item.active a.menu-faq {
-    color: #333 !important;
+.menu-item a:hover, 
+.menu-item.active a.menu-academy-overview, 
+.menu-item.active a.menu-support, 
+.menu-item.active a.menu-training, 
+.menu-item.active a.menu-faq,
+.menu-item.active a.menu-knowledgebase {
+    color: #333;
 }
 .menu-item a.menu-academy-overview:before {
     background: url('//www.outsystems.com/CommunityBaseTheme/img/icons.png?21461') no-repeat -3px -914px;
@@ -616,26 +626,12 @@ button, input, select, textarea {
     content: "";
     float: left;
 }
-.menu-item a.menu-academy-overview:hover:before, .menu-item.active a.menu-academy-overview:before, .menu-item.active a.menu-academy-overview:hover:before {
+
+.menu-item a.menu-academy-overview:hover:before, 
+.menu-item.active a.menu-academy-overview:before, 
+.menu-item.active a.menu-academy-overview:hover:before {
     background: url('//www.outsystems.com/CommunityBaseTheme/img/icons.png?21461') no-repeat -3px -949px;
     width: 23px;
-    height: 20px;
-    display: block;
-    content: "";
-    float: left;
-    color: #333;
-}
-.menu-item a.menu-support:before {
-    background: url('//www.outsystems.com/CommunityBaseTheme/img/icons.png?21461') no-repeat -9px -1054px;
-    width: 16px;
-    height: 20px;
-    display: block;
-    content: "";
-    float: left;
-}
-.menu-item a.menu-support:hover:before, .menu-item.active a.menu-support:before, .menu-item.active a.menu-support:hover:before {
-    background: url('//www.outsystems.com/CommunityBaseTheme/img/icons.png?21461') no-repeat -9px -1089px;
-    width: 16px;
     height: 20px;
     display: block;
     content: "";
@@ -650,7 +646,9 @@ button, input, select, textarea {
     content: "";
     float: left;
 }
-.menu-item a.menu-training:hover:before, .menu-item.active a.menu-training:before, .menu-item.active a.menu-training:hover:before {
+.menu-item a.menu-training:hover:before, 
+.menu-item.active a.menu-training:before, 
+.menu-item.active a.menu-training:hover:before {
     background: url('//www.outsystems.com/CommunityBaseTheme/img/icons.png?21461') no-repeat -3px -950px;
     width: 22px;
     height: 20px;
@@ -667,7 +665,9 @@ button, input, select, textarea {
     content: "";
     float: left;
 }
-.menu-item a.menu-faq:hover:before, .menu-item.active a.menu-faq:before, .menu-item.active a.menu-faq:hover:before {
+.menu-item a.menu-faq:hover:before, 
+.menu-item.active a.menu-faq:before, 
+.menu-item.active a.menu-faq:hover:before {
     background: url('//www.outsystems.com/CommunityBaseTheme/img/icons.png?21461') no-repeat -66px -1193px;
     width: 22px;
     height: 20px;
@@ -676,6 +676,91 @@ button, input, select, textarea {
     float: left;
     color: #333;
 }
+.menu-item a.menu-support:before {
+    background: url('www.outsystems.com/PortalTheme/img/support_cases_icon.png') center no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    content: "";
+    float: left;
+}
+.menu-item a.menu-support:hover:before, 
+.menu-item.active a.menu-support:before, 
+.menu-item.active a.menu-support:hover:before {
+    background: url('//www.outsystems.com/CommunityBaseTheme/img/icons.png?21461') no-repeat -9px -1089px;
+    width: 16px;
+    height: 20px;
+    display: block;
+    content: "";
+    float: left;
+    color: #333;
+}
+.menu-item a.menu-knowledgebase:hover:before, 
+.menu-item.active a.menu-knowledgebase:before, 
+.menu-item.active a.menu-knowledgebase:hover:before {
+    background: url('//www.outsystems.com/CommunityBaseTheme/img/lockactive.png') center no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    content: "";
+    float: left;
+    color: #333;
+}
+.header-headshot {
+    padding: 9px;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+}
+.ProfileMenu {
+    text-align: left;
+    margin-left: -105px;
+    position: absolute;
+    top: 56px;
+    z-index: 9999;
+    border: 1px solid #d5d5d5;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0 5px 18px rgba(0,0,0,.18);
+    border-top: none;
+    width: 170px;
+    background: #FFF;
+}
+div.Header-ButtonContainer {
+    text-align: right;
+    padding-top: 0;
+    width: 125px;
+}
+div.Header-UserInfo {
+    padding-bottom: 19px;
+    font-weight: 700;
+    position: relative;
+    padding-left: 20px;
+    color: #384142;
+    font-family: myriad-pro;
+    font-size: 14px;
+    border-bottom: 2px solid #e7eced;
+    line-height: 1;
+    padding-top: 19px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.MenuRow {
+    color: #596669;
+    font-family: myriad-pro;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 9px;
+    border-bottom: 1px solid #e7eced;
+    font-weight: 400;
+}
+.header-icon {
+    text-indent: -5000em;
+    overflow: hidden;
+    width: 20px;
+    height: 16px;
+    margin-left: 11px;
+}
 .menu-placeholder {
     height: 24px;
     margin-top: 7px;
@@ -683,7 +768,9 @@ button, input, select, textarea {
 .menu-wrapper.offset2 {
     margin-left: 196px;
 }
-
+.menu-wrapper.offset5 {
+    margin-left: 448px;
+}
 /* Search */
 .small-search {
     float: left;
@@ -795,21 +882,6 @@ button, input, select, textarea {
 }
 .header-logged-out a:hover {
     color: #FFF !important;
-}
-div.Header-UserInfo {
-    font-size: 12px;
-    line-height: 1;
-    padding-top: 22px;
-    font-weight: bold;
-    position: relative;
-    padding-left: 10px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-}
-div.Header-ButtonContainer {
-    padding-top: 17px;
-    width: 62px;
 }
 .header-icon-message {
     background: url("//www.outsystems.com/CommunityBaseTheme/img/headericons.png?21461") no-repeat -1px 0px;
