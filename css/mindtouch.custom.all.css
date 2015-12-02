@@ -725,6 +725,11 @@ button, input, select, textarea {
     width: 170px;
     background: #FFF;
 }
+.ProfileMenu .osicon-arrow-triangle-up:before {
+    position: absolute;
+    top: -9px;
+    left: 110px;
+}
 div.Header-ButtonContainer {
     text-align: right;
     padding-top: 0;
