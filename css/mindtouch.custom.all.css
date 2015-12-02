@@ -687,8 +687,8 @@ button, input, select, textarea {
 .menu-item a.menu-support:hover:before, 
 .menu-item.active a.menu-support:before, 
 .menu-item.active a.menu-support:hover:before {
-    background: url('//www.outsystems.com/CommunityBaseTheme/img/icons.png?21461') no-repeat -9px -1089px;
-    width: 16px;
+    background: url('//www.outsystems.com/PortalTheme/img/support_cases_icon.png') center no-repeat;
+    width: 20px;
     height: 20px;
     display: block;
     content: "";
