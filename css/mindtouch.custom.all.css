@@ -536,8 +536,8 @@ button, input, select, textarea {
 .mobile-notdisplay {
     display: block;
 }
-.mobile-display {
-    display: none;
+.Mobile, .mobile-display, .mobile-search {
+    display: none
 }
 .top-menu-separator {
     background: url("//www.outsystems.com/CommunityBaseTheme/img/header_separator.png") no-repeat scroll left bottom #444;
