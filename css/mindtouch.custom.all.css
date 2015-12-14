@@ -895,10 +895,13 @@ div.Header-UserInfo {
     background: url('//www.outsystems.com/CommunityBaseTheme/img/headericons.png') -41px -1px no-repeat;
 }
 .header-icon-message {
-    background: url("//www.outsystems.com/CommunityBaseTheme/img/headericons.png?21461") no-repeat -1px 0px;
+    background: url("//www.outsystems.com/CommunityBaseTheme/img/headericons.png") no-repeat -1px 0px;
+}
+.header-icon-message-notification {
+    background: url("//www.outsystems.com/CommunityBaseTheme/img/headericons.png") -22px -20px no-repeat;
 }
 .header-icon-logout {
-    background: url("//www.outsystems.com/CommunityBaseTheme/img/headericons.png?21461") no-repeat -63px -1px;
+    background: url("//www.outsystems.com/CommunityBaseTheme/img/headericons.png") no-repeat -63px -1px;
     margin-left: 6px;
 }
 .header-icon {
