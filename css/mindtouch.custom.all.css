@@ -772,13 +772,6 @@ div.Header-UserInfo {
     border-bottom: 1px solid #e7eced;
     font-weight: 400;
 }
-.header-icon {
-    text-indent: -5000em;
-    overflow: hidden;
-    width: 20px;
-    height: 16px;
-    margin-left: 11px;
-}
 .menu-placeholder {
     height: 24px;
     margin-top: 7px;
@@ -901,6 +894,14 @@ div.Header-UserInfo {
 .header-logged-out a:hover {
     color: #FFF !important;
 }
+.header-icon {
+    display: inline-block;
+    text-indent: -5000em;
+    overflow: hidden;
+    width: 20px;
+    height: 16px;
+    margin-left: 11px;
+}
 .header-icon-settings {
     border: 1px solid #3b3737;
     border-radius: 4px;
@@ -914,16 +915,8 @@ div.Header-UserInfo {
     background: url("//www.outsystems.com/CommunityBaseTheme/img/headericons.png") -22px -20px no-repeat;
 }
 .header-icon-logout {
-    background: url("//www.outsystems.com/CommunityBaseTheme/img/headericons.png") no-repeat -63px -1px;
+    background: url("//www.outsystems.com/CommunityBaseTheme/img/headericons.png") no-repeat -63px -20px;
     margin-left: 6px;
-}
-.header-icon {
-    display: inline-block;
-    text-indent: -5000em;
-    overflow: hidden;
-    width: 20px;
-    height: 16px;
-    margin-left: 11px;
 }
 .elm-user-pro-member .mt-quick-search-container .mt-button {
     color: #778385;
