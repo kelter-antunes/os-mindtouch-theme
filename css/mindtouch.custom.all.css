@@ -739,6 +739,15 @@ div.Header-ButtonContainer .rectangleMessage{
     height: 25px;
     width: 32px;
 }
+div.Header-ButtonContainer .rectangleMessage + div{
+    margin-left: -20px;
+    color: white;
+    vertical-align: baseline;
+}
+div.Header-ButtonContainer .DropdownActive {
+    height: 55px;
+    background-color: rgba(255,255,255,.11);
+}
 div.Header-UserInfo {
     padding-bottom: 19px;
     font-weight: 700;
