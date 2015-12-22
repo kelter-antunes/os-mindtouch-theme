@@ -740,9 +740,9 @@ div.Header-ButtonContainer .rectangleMessage{
     width: 32px;
 }
 div.Header-ButtonContainer .rectangleMessage + div{
+    margin-top: 2px;
     margin-left: -20px;
     color: white;
-    vertical-align: baseline;
 }
 div.Header-ButtonContainer .DropdownActive {
     height: 55px;
