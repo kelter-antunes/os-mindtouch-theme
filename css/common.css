@@ -60,6 +60,9 @@
   opacity: 1;
 }
 /* Customized Draft bar for UX Policies */
+body.columbia-draft nav.elm-nav.elm-header-notice.ux-policy dl dd {
+  font-size: 11.6px;
+}
 nav.elm-nav.elm-header-notice.ux-policy {
   border: none;
 }
