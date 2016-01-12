@@ -1,4 +1,14 @@
 /* styles just for the homepage*/
+@media (min-width: 18.75em) {
+  .columbia-breadcrumb-home-support .use-case-container .see-more {
+    text-align: right;
+  }
+}
+@media (min-width: 25em) {
+  .columbia-breadcrumb-home-support .use-case-container .see-more {
+    text-align: left;
+  }
+}
 .columbia-breadcrumb-home-support .how-to dl.mt-listing-detailed {
   padding: 0;
 }
@@ -20,7 +30,7 @@
   content: '\e6f7';
   margin-right: 10px;
 }
-.columbia-breadcrumb-home-support .how-to dl.mt-listing-detailed .see-more {
+.columbia-breadcrumb-home-support .how-to .see-more {
   text-align: right;
 }
 /* base class to encapsulate evaluation kb styles */
