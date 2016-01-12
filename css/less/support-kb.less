@@ -16,29 +16,35 @@
 	}
 	// how-to section styles
 	.how-to{
-		dl.mt-listing-detailed {
-			padding: 0;
+		padding-top: 20px;
 
-			dt.mt-listing-detailed-title{
-				border-bottom: 2px solid #DDD; 
+		li.mt-sortable-listing{
+			margin-top: 0;
 
-				a{
+			dl.mt-listing-detailed {
+				padding: 0;
+
+				dt.mt-listing-detailed-title{
+					border-bottom: 2px solid #DDD; 
+
+					a{
+						display: none;
+					}
+				}
+
+				dd.mt-listing-detailed-image.mt-hide-image {
 					display: none;
 				}
-			}
 
-			dd.mt-listing-detailed-image.mt-hide-image {
-				display: none;
-			}
+				li.mt-show-more-listing {
+					padding: 10px 0 19px 0;
+					border-bottom: 1px solid #DDD;
 
-			li.mt-show-more-listing {
-				padding: 10px 0 19px 0;
-				border-bottom: 1px solid #DDD;
-
-				span.mt-icon-article-howto:before {
-					font: normal 100%/1 icomoon;
-					content: '\e6f7';
-					margin-right: 10px;
+					span.mt-icon-article-howto:before {
+						font: normal 100%/1 icomoon;
+						content: '\e6f7';
+						margin-right: 10px;
+					}
 				}
 			}
 		}
