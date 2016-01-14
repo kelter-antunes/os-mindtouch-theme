@@ -509,8 +509,10 @@ div.title-container .search {
     .offset2 {
         margin-left: 144px;
     }
-    .offset5 {
-        margin-left: 330px;
+    
+    div.title-container {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
@@ -1626,6 +1628,9 @@ input.searchform-submit[disabled], input.searchform-submit[disabled]:hover {
     }
     .searchview-content {
         width: 570px
+    }
+    .menu-wrapper.offset5 {
+        margin-left: 330px;
     }
 }
 
