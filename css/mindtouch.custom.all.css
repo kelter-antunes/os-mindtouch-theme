@@ -416,9 +416,6 @@ button, input, select, textarea {
     float: right;
 }
 
-div.title-container .page-title {
-        margin-left:30px;
-}
 
 div.title-container .search {
         margin-left:30px;
@@ -514,6 +511,10 @@ div.title-container .search {
         padding-left: 0px;
         padding-right: 0px;
     }
+    div.title-container .page-title {
+        margin-left:30px;
+}
+
 }
 
 /* END GRID */
