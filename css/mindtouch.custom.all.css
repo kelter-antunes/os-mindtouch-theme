@@ -1472,7 +1472,7 @@ div.Application_Menu div.Menu_DropDownPanel a, div.Application_Menu div.Menu_Dro
     border-top: 1px solid #ddd;
 }
 .no-touch .ui-table tr:hover, .no-touch .ui-table tr:hover td, .no-touch tr:hover, .no-touch tr:hover td {
-    background: #FFF !important;
+    background: #FFF;
 }
 
 /* END fix styles in tables with rowspan */
