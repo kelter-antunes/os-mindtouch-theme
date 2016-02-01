@@ -1468,7 +1468,7 @@ div.Application_Menu div.Menu_DropDownPanel a, div.Application_Menu div.Menu_Dro
 
 /* START fix styles in tables with rowspan */
 .ui-table tr:nth-child(even), .ui-table tr:nth-child(even) td, tr:nth-child(even), tr:nth-child(even) td {
-    background: #FFF !important;
+    background: #FFF;
     border-top: 1px solid #ddd;
 }
 .no-touch .ui-table tr:hover, .no-touch .ui-table tr:hover td, .no-touch tr:hover, .no-touch tr:hover td {
@@ -1694,7 +1694,7 @@ input.searchform-submit[disabled], input.searchform-submit[disabled]:hover {
     color: #c62104;
 }
 .ui-table tr:nth-child(odd), .ui-table tr:nth-child(odd) td, tr:nth-child(odd), tr:nth-child(odd) td {
-    background: #FFF !important;
+    background: #FFF;
     border-top: 1px solid #ddd;
 }
 
