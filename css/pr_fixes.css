@@ -1,4 +1,4 @@
-@media (min-width:18.75em) {
+@media (max-width:18.75em) {
     .page {
         display: block;
         padding: 5px 15px 5px 15px;
