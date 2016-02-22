@@ -1,0 +1,65 @@
+@media (min-width:18.75em) {
+    .page {
+        display: block;
+        padding: 5px 15px 5px 15px;
+        border-radius: 4px;
+        margin-top: 6px;
+        background: #ECEFF1;
+        width: auto;
+        text-decoration: none !important;
+    }
+    .parent.crumb a {
+        text-decoration: none !important;
+    }
+    .breadcrumb .page:nth-child(2) {
+        margin-left: 10px;
+    }
+    .breadcrumb .page:nth-child(3) {
+        margin-left: 25px;
+    }
+    .breadcrumb .page:nth-child(4) {
+        margin-left: 35px;
+        line-height: 1.4;
+        font-weight: bold;
+        color: #7A878B;
+    }
+    .breadcrumb {
+        border-bottom: 1px solid #E7ECED;
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: #fff;
+        border-radius: 4px;
+        margin: 0px !important;
+        width: 100%;
+        margin-left: -10px !important;
+    }
+    #title {
+        line-height: 1.2 !important;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 260%;
+    }
+    [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
+        padding: 8% !important;
+    }
+    p {
+        font-size: 16px !important;
+        color: #000 !important;
+        line-height: 1.4 !important;
+    }
+    h1 {
+        color: black !important;
+    }
+    h2 {
+        color: black !important;
+        padding-bottom: 0.2rem !important;
+    }
+    h2 + p {
+        margin-top: 10px !important;
+    }
+    .mt-summary-toggle {
+        font-size: 16px !important;
+        color: #BDC5C7 !important;
+    }
+}
