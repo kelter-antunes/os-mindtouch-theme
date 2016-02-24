@@ -1040,13 +1040,13 @@ body.columbia-breadcrumb-home-evaluation {
     display: none !important;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
-    padding-left: 0.65rem;
+    padding: 1.65rem;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar aside#mt-toc-container {
     margin: 0;
   }
 }
-@media all and (min-width: 37.5em) {
+@media all and (min-width: 48.5em) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
     padding: 0;
     line-height: inherit;

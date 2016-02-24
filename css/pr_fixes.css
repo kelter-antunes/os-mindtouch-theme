@@ -1,3 +1,21 @@
+.top-nav {
+    display:block;
+    margin-top:0;
+}
+
+.breadcrumb {
+    margin-top:0px !important;
+    padding-left:20px
+}
+
+.elm-header-custom {
+    margin-top: 0px;
+}
+
+.columbia-article-topic-guide .elm-meta-data  {
+    display:none;
+}
+
 @media (max-width:18.75em) {
     .page {
         display: block;
