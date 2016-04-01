@@ -5,8 +5,12 @@
   font-style: normal;
   font-size: 15px;
   line-height: 21px;
+  padding: 20px 50px 50px 50px !important;
 }
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container h1 {
+[class*=columbia-breadcrumb-home-enablement-partnerguide] li.related-item {
+  margin-top: 15px;
+}
+.mt-content-container h1 {
   font-family: inherit;
   font-weight: 600;
   font-style: inherit;
@@ -16,7 +20,7 @@
   margin-bottom: 0px;
   letter-spacing: -2;
 }
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container h2 {
+.mt-content-container h2 {
   font-family: inherit;
   font-weight: 600;
   font-style: inherit;
@@ -25,7 +29,7 @@
   margin-top: 42px;
   margin-bottom: 21px;
 }
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container h3 {
+.mt-content-container h3 {
   font-family: inherit;
   font-weight: 600;
   font-style: inherit;
@@ -34,7 +38,7 @@
   margin-top: 21px;
   margin-bottom: 0px;
 }
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container h4 {
+.mt-content-container h4 {
   font-family: inherit;
   font-weight: 600;
   font-style: inherit;
@@ -43,7 +47,7 @@
   margin-top: 21px;
   margin-bottom: 0px;
 }
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container h5 {
+.mt-content-container h5 {
   font-family: inherit;
   font-weight: 400;
   font-style: italic;
@@ -52,68 +56,71 @@
   margin-top: 21px;
   margin-bottom: 0px;
 }
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container p,
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container ul,
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container ol,
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container pre,
-[class*=columbia-breadcrumb-home-enablement-partnerguide] table,
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container blockquote {
+.mt-content-container p,
+.mt-content-container ul,
+.mt-content-container ol,
+.mt-content-container pre,
+table,
+.mt-content-container blockquote {
   margin-top: 0px;
   margin-bottom: 21px;
   line-height: 21px;
   font-weight: normal;
   font-family: Arial, sans-serif;
 }
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container ul ul,
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container ol ol,
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container ul ol,
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container ol ul {
+.mt-content-container ul ul,
+.mt-content-container ol ol,
+.mt-content-container ul ol,
+.mt-content-container ol ul {
   margin-top: 0;
   margin-bottom: 0;
 }
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container hr {
+.mt-content-container li.related-item {
+  margin-top: 15px;
+}
+.mt-content-container hr {
   border: 1px solid;
   margin: -1px 0;
 }
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container b,
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container strong,
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container em,
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container small,
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container code {
+.mt-content-container b,
+.mt-content-container strong,
+.mt-content-container em,
+.mt-content-container small,
+.mt-content-container code {
   line-height: 1;
 }
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container sup {
+.mt-content-container sup {
   line-height: 0;
   position: relative;
   vertical-align: baseline;
   top: -0.5em;
 }
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container sub {
+.mt-content-container sub {
   bottom: -0.25em;
 }
-[class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container a {
+.mt-content-container a {
   color: #268ED9;
 }
 @media screen and (max-width: 680px) {
-  [class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container .top-nav {
+  .mt-content-container .top-nav {
     width: 100%;
   }
-  [class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container .elm-content-container {
+  .mt-content-container .elm-content-container {
     width: 100%;
     margin: auto;
     overflow: hidden;
   }
-  [class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container .evaluation-kb {
+  .mt-content-container .evaluation-kb {
     padding: 0 8% 0 8%;
   }
-  [class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container,
-  [class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-toc-container,
-  [class*=columbia-breadcrumb-home-enablement-partnerguide] .elm-content-container header,
-  [class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-toggle-container {
+  .mt-content-container,
+  .mt-toc-container,
+  .elm-content-container header,
+  .mt-toggle-container {
     margin: 0;
     width: 100%;
   }
-  [class*=columbia-breadcrumb-home-enablement-partnerguide] .mt-content-container .page {
+  .mt-content-container .page {
     display: block;
     padding: 5px 15px 5px 15px;
     -webkit-border-radius: 4px;
@@ -124,5 +131,39 @@
     text-decoration: none;
     font-weight: bold;
     color: #666;
+  }
+}
+@media (min-width: 65.25em) {
+  .body-with-sidebar .sidemenu-wrapper {
+    left: 0px;
+    margin-left: 0;
+  }
+  article.elm-content-container.evaluation-kb header {
+    width: 68%;
+    margin: 34px 0 auto 255px;
+    padding: 50px 50px 10px 50px;
+  }
+  article.elm-content-container.evaluation-kb .mt-content-container {
+    width: 68%;
+    margin: -8px 0 auto 226px;
+    line-height: 19px;
+    padding: 50px;
+  }
+}
+@media (min-width: 48.5em) {
+  .body-with-sidebar .sidemenu-wrapper {
+    display: block!important;
+    margin-left: 0px;
+  }
+  article.elm-content-container.evaluation-kb header {
+    width: 63%;
+    margin: 34px 0 auto 255px;
+    padding: 50px 50px 10px 50px;
+  }
+  article.elm-content-container.evaluation-kb .mt-content-container {
+    width: 63%;
+    margin: -8px 0 auto 226px;
+    line-height: 19px;
+    padding: 50px;
   }
 }
