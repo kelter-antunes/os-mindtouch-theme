@@ -524,7 +524,7 @@ div.title-container .search {
 /* START HEADER */
 .header {
     background: url("//www.outsystems.com/CommunityBaseTheme/img/bgheader.png") repeat-x scroll left top #444;
-    height: 91px;
+    height: 92px;
 }
 .header-small {
     height: 57px;
@@ -628,31 +628,19 @@ div.title-container .search {
     text-transform: uppercase;
     font-family: myriad-pro, Helvetica, Arial, sans-serif;
     font-size: 13px;
-    position: relative;
-    color: #666;
-}
-
-.menu-item.active {
-    padding: 7px 15px;
-    background-color: rgba(0, 0, 0, 0.18);
-    margin-top: -8px;
 }
 .menu-item a {
     color: #666;
     display: block;
     font-size: 13px;
 }
-
+.menu-item a:hover, 
 .menu-item.active a.menu-academy-overview, 
 .menu-item.active a.menu-support, 
 .menu-item.active a.menu-training, 
 .menu-item.active a.menu-faq,
 .menu-item.active a.menu-knowledgebase {
-    color: #fff;
-}
-
-.menu-item a:hover {
-    color: #333 ;
+    color: #333;
 }
 .menu-item a.menu-academy-overview:before {
     background: url('//www.outsystems.com/CommunityBaseTheme/img/icons.png?21461') no-repeat -3px -914px;
@@ -742,10 +730,6 @@ div.title-container .search {
     float: left;
     color: #333;
 }
-.menu-item.active a:before, .menu-item.active a:hover:before {
-    filter: brightness(0) invert(1);
-    -webkit-filter: brightness(0) invert(1);
-}
 .header-headshot {
     padding: 9px;
     border-radius: 50%;
@@ -765,18 +749,6 @@ div.title-container .search {
     width: 170px;
     background: #FFF;
 }
-
-.menu-arrow {
-    content: "";
-    border-style: solid;
-    border-width: 6px;
-    bottom: -0px;
-    left: 50%;
-    position: absolute; 
-    margin-left: -6px;   
-    border-color: transparent transparent #fff;
-}
-
 .ProfileMenu .osicon-arrow-triangle-up:before {
     position: absolute;
     top: -9px;
