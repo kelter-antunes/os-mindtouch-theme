@@ -1,3 +1,38 @@
+/* START offset1 */
+.offset1 {
+    margin-left: 112px
+}
+.row-fluid .offset1 {
+    margin-left: 11.428571428571429%
+}
+.row-fluid .offset1:first-child {
+    margin-left: 8.571428571428571%
+}
+@media (min-width: 768px) and (max-width:979px) {
+    .offset1 {
+        margin-left: 82px
+    }
+    .row-fluid .offset1 {
+        margin-left: 11.32596685082873%
+    }
+    .row-fluid .offset1:first-child {
+        margin-left: 8.56353591160221%
+    }
+}
+@media (min-width: 4200px) {
+    .offset1 {
+        margin-left: 130px
+    }
+    .row-fluid .offset1 {
+        margin-left: 11.11111111111111%
+    }
+    .row-fluid .offset1:first-child {
+        margin-left: 8.547008547008547%
+    }
+}
+/* END offset1 */
+
+
 /* */
 .mt-new-features-container {
     display: none;
