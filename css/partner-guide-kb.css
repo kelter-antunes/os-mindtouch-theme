@@ -474,6 +474,9 @@
   [class*=columbia-breadcrumb-home-enablement-partnerguide].body-with-sidebar .partner-home-subheader p {
     display: none!important;
   }
+  [class*=columbia-breadcrumb-home-enablement-partnerguide].body-with-sidebar .elm-content-container {
+    background: #fff !important;
+  }
 }
 @media all and (min-width: 48.5em) {
   [class*=columbia-breadcrumb-home-enablement-partnerguide].body-with-sidebar .partner-home-header .breadcrumb {
