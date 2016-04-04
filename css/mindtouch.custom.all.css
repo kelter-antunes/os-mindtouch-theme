@@ -644,7 +644,7 @@ div.title-container .search {
     background-color: rgba(0, 0, 0, 0.18);
     margin-top: -8px;
 }
-
+.menu-item.active a,
 .menu-item.active a.menu-academy-overview, 
 .menu-item.active a.menu-support, 
 .menu-item.active a.menu-training, 
