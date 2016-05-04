@@ -22,7 +22,8 @@ module.exports = function(grunt) {
                         'css/evaluation-kb.css',
                         'css/learn-kb.css',
                         'css/support-kb.css',
-                        'css/partner-guide-kb.css'
+                        'css/partner-guide-kb.css',
+                        'css/docp10.css'
                     ]
                 }
             }
